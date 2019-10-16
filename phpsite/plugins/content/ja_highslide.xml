@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+	<name>Highslide for Joomla! 1.5</name>
+	<author>JoomlArt</author>
+	<creationDate>April 2008</creationDate>
+	<copyright>Copyright (C) Copyright © 2005 - 2008 JoomlArt.com. All rights reserved.</copyright>
+	<license>http://www.joomlart.com GNU/GPL</license>
+	<authorEmail>info@joomsolutions.com</authorEmail>
+	<authorUrl>http://joomlart.com</authorUrl>
+	<version>1.0</version>
+	<description>Highslide for Joomla! 1.5</description>
+	<files>
+		<filename plugin="ja_highslide">ja_highslide.php</filename>
+		<filename plugin="ja_highslide">highslide/parser.php</filename>
+		<filename plugin="ja_highslide">highslide/highslide-styles.css</filename>
+		<filename plugin="ja_highslide">highslide/highslide-full.packed.js</filename>
+		<filename plugin="ja_highslide">highslide/swfobject.js</filename>
+		<filename plugin="ja_highslide">highslide/do_cookie.js</filename>
+		<filename plugin="ja_highslide">highslide/graphics/controlbar2.gif</filename>
+		<filename plugin="ja_highslide">highslide/graphics/controlbar3.gif</filename>
+		<filename plugin="ja_highslide">highslide/graphics/controlbar4.gif</filename>
+		<filename plugin="ja_highslide">highslide/graphics/controlbar4-hover.gif</filename>
+		<filename plugin="ja_highslide">highslide/graphics/fullexpand.gif</filename>
+		<filename plugin="ja_highslide">highslide/graphics/geckodimmer.png</filename>
+		
+		<filename plugin="ja_highslide">highslide/graphics/loader.gif</filename>
+		<filename plugin="ja_highslide">highslide/graphics/loader.white.gif</filename>
+		<filename plugin="ja_highslide">highslide/graphics/resize.gif</filename>
+		<filename plugin="ja_highslide">highslide/graphics/zoomin.cur</filename>
+		<filename plugin="ja_highslide">highslide/graphics/zoomout.cur</filename>
+		
+		<filename plugin="ja_highslide">highslide/graphics/outlines/beveled.png</filename>
+		<filename plugin="ja_highslide">highslide/graphics/outlines/drop-shadow.png</filename>
+		<filename plugin="ja_highslide">highslide/graphics/outlines/glossy-dark.png</filename>
+		<filename plugin="ja_highslide">highslide/graphics/outlines/outer-glow.png</filename>
+		<filename plugin="ja_highslide">highslide/graphics/outlines/Outlines.psd</filename>
+		<filename plugin="ja_highslide">highslide/graphics/outlines/rounded-black.png</filename>
+		<filename plugin="ja_highslide">highslide/graphics/outlines/rounded-white.png</filename>		
+	</files>
+	<params>
+		<param name="outlineType" type="list" default="2" label="outlineType" description="Choose the Outline Type">
+			<option value="6">rounded-black</option>
+			<option value="5">glossy-dark</option>
+			<option value="4">beveled</option>
+			<option value="3">drop-shadow</option>
+			<option value="2">rounded-white</option>
+			<option value="1">outer-glow</option>
+			<option value="0">No Border</option>
+		</param>
+		<param name="showHSCredits" type="list" default="1" label="HighSlideCredits" description="Show HighSlide Credits">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+		<param name="loadingText" type="text" default='Loading...' label="loadingText" description="The Loading text displayed on a Image. You can leave this empty to disable loading Text." />		
+		<param name="width" type="text" default='100' label="Thumbnail Image width" description="Fixed width of thumbnail image in pixel (set to defaul size)." />
+		<param name="autoresize" type="list" default="1" label="Auto resize image" description="You can set auto resize the images with a size define. Note: This option is best with Face animation">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="paththum" type="text" default='images/stories/' label="Path Thumbnail Image" description="Set path to thumbnail image directory." />	
+		
+	</params>
+</install>

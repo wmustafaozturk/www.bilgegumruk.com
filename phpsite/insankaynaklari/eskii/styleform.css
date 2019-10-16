@@ -1,0 +1,72 @@
+.back {
+	BACKGROUND-IMAGE: url(images/bg.gif); BACKGROUND-REPEAT: repeat-x
+}
+.menu {
+	FONT-SIZE: 11px; COLOR: #0e305e; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #c9d9ea; TEXT-DECORATION: none
+}
+.menuon {
+	FONT-SIZE: 11px; CURSOR: hand; COLOR: #c00002; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ecf1f7
+}
+.arial {
+	FONT-SIZE: 11px; COLOR: #444444; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #c00002
+}
+.arial2 {
+	FONT-SIZE: 11px; COLOR: #444444; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: overline
+}
+.input {
+	BORDER-RIGHT: #5bbcef 1px solid; BORDER-TOP: #0053ac 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #0053ac 1px solid; COLOR: #444444; BORDER-BOTTOM: #5bbcef 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #dcdcdc; SCROLLBAR-HIGHLIGHT-COLOR: #cccccc; SCROLLBAR-SHADOW-COLOR: #f7f7f7; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #4d81ba; SCROLLBAR-TRACK-COLOR: #efefef; SCROLLBAR-DARKSHADOW-COLOR: #cccccc
+}
+.input2 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #999999 1px solid; COLOR: #444444; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.input3 {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; FONT-SIZE: 11px; BORDER-LEFT: #ffffff 0px solid; COLOR: #444444; BORDER-BOTTOM: #ffffff 0px solid; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.nocizgi {
+	TEXT-DECORATION: none
+}
+.beyaz {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.mavi {
+	FONT-SIZE: 11px; COLOR: #3868a8; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.beyaz:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.arial12 {
+	FONT-SIZE: 12px; COLOR: #444444; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+LI {
+	LIST-STYLE-IMAGE: url(images/ok.gif)
+}
+.doktorbg {
+	BACKGROUND-IMAGE: url(images/doktor.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.bebekbg {
+	FONT-SIZE: 11px; BACKGROUND-IMAGE: url(images/ebebek1.gif); COLOR: #444444; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.unnamed1 {
+	FONT: bold 18px Arial, Helvetica, sans-serif; COLOR: #003399; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: none
+}
+.arial10 {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bulten2 {
+	FONT: 10px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #333333; LIST-STYLE-TYPE: none; TEXT-DECORATION: none
+}
+.arial12mavi {
+	FONT-SIZE: 12px; COLOR: #003399; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.bulten {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: line-through
+}
+.arial2 {
+	
+}

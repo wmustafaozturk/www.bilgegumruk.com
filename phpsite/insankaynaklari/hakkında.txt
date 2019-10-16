@@ -1,0 +1,7 @@
+gurur baþvuru formunun bazý php sürümlerinde çalýþmadýðýný farkettim bunun üzerine küçük bir kaç deðiþiklik yaptým. Artýk script sorunsuz olarak çalýþacaktýr. Yine gonder.php dosyasýndan ayarlarý yapmayý unutmayýn. 
+
+Not: Ayar yapmanýz gereken yerlerin yanýna açýklamalarýný yazdým.
+
+Güle güle kullanýn..
+
+G.Polat

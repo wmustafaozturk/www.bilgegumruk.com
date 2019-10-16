@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Ja HighSlide</name>
+	<author>JoomlArt</author>
+	<creationDate>May 2008 </creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>webmaster@joomlart.com</authorEmail>
+	<authorUrl>www.joomlart.com</authorUrl>
+	<version>1.5.0</version>
+	<description>Enable you use plugin jahighslide in module. </description>
+	<files>
+		<filename module="mod_jahighslide">mod_jahighslide.php</filename>
+		<filename module="mod_jahighslide">helper.php</filename>
+		<filename module="mod_jahighslide">index.html</filename>
+		<filename module="mod_jahighslide">tmpl/default.php</filename>
+		<filename module="mod_jahighslide">tmpl/index.html</filename>
+		<filename module="mod_jatabs">elements/module.php</filename>
+		<filename module="mod_jatabs">elements/jalist.php</filename>
+	</files>
+	<params group="advanced">		
+		<param name="Height" type="text" default="200" label="Height:" description="Enter the height of the highslide" />
+		<param name="Width" type="text" default="300" label="Width:" description="Enter the Width of the highslide" />
+		<param name="positions" type="list" default="bottom,left" label="Positions control bar:" description=" Chose position of the control bar.">
+			<option value="top, left">Top - Left</option>
+			<option value="bottom, left">Right - Left</option>
+			<option value="bottom, right">Bottom - Right</option>
+			<option value="top, right">Top - Right</option>
+		</param>
+		<param name="class" type="text" default="" label="Class:" description="Enter the class class affect image in the link" />
+		<param name="captionText" type="text" default="" label="Caption text:" description="Enter the caption for highslide" />		
+		<param name="event" type="radio" default="click" label="Event type:" description="Chose event type?">
+			<option value="click" >Click</option>
+			<option value="loadbody">Load body</option>
+		</param>	
+		
+		<param name="dismissbuton" type="radio" default="0" label="Dismissbuton:" description="choose show/hide check box 'Not show agian'">		
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>			
+		
+		<param name="display" type="radio" default="none" label="Show thumbnail image:" description="Show thumbnail image for type=image">
+			<option value="show">Yes</option>
+			<option value="none">No</option>		
+		</param>			
+		
+		<param name="notshowagain" type="text" default="0" label="Not show again:" description="Enter not show again time (day)" />	
+		<param name="loaddelay" type="text" default="0" label="Loaddelay:" description="Enter the time load delay." />
+		<param name="notshowagaintime" type="text" default="0" label="Not Show again time:" description="Enter time not show again" />
+		<param name="first-content" type="textarea" cols="40" rows="2" default="" label="First content: " description="Enter the first content" />
+		<param name="centr-content" type="textarea" cols="40" rows="2" default="" label="Highslide content: " description="Enter the link show highslide" />
+		<param name="last-content" type="textarea" cols="40" rows="2" default="" label="Last content: " description="Enter the last content " />		
+		
+	</params>			
+	
+	<params addpath="/modules/mod_jahighslide/elements" >
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="" />
+		<param name="type" type="jalist" default="" label="Type:" description="Chose type of the highslide">
+			<option value="">- Select type -</option>
+			<option value="url-img">Image</option>
+			<option value="html">Html</option>
+			<option value="url-slideshow-caption">SlideShow Caption</option>
+			<option value="url-slideshow-controlbar">SlideShow Controlbar</option>
+			<option value="url-flash">Flash</option>			
+			<option value="url-iframe">Frame</option>
+			<option value="module">Module</option>
+			<option value="modules">Modules</option>
+			<option value="item">Item</option>
+			<option value="url-ajax">Ajax</option>			
+		</param>		
+		<param name="url-url"  type="textarea" cols="40" rows="2" default="" label="URL:" description="Enter the URL of the element. Ex: same-1.jpg, same-2.jpg for Slideshow OR same-1.jpg for Image OR Flash.swf for Flash OR http://google.com for Frame and Ajax " />		
+		<param name="url-folder"  type="text" size="72" default="" label="OR Path Folder: (for slideshow)" description="Enter the Folder of the element " />		
+		
+		<param name="item-itemid" type="text" default="" label="Itemid:" description="Enter the id of article" />		
+		<param name="modules-position" type="text" default="" label="Position:" description="Enter the positions of modules "/>				 
+		<param name="module-modulename" type="module" default="" label="Module name:" description="Select the module name" />
+		<param name="html-contentid" type="text" default="" label="Contentid:" description="Enter the conentid. Ex: 1" />
+		<param name="html-content" type="textarea" cols="40" rows="2" default="" label="Content:" description="Enter the content of html"/>
+				
+	</params>
+	
+</install>	

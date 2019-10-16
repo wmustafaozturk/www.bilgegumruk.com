@@ -1,0 +1,1211 @@
+AWSTATS DATA FILE 6.0 (build 1.704)
+# If you remove this file, all statistics for date 2016-04 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1837                
+POS_TIME 2494                
+POS_VISITOR 20568               
+POS_DAY 45076               
+POS_DOMAIN 3403                
+POS_LOGIN 3639                
+POS_ROBOT 3794                
+POS_WORMS 4361                
+POS_EMAILSENDER 4492                
+POS_EMAILRECEIVER 4635                
+POS_SESSION 45940               
+POS_SIDER 46152               
+POS_FILETYPES 4770                
+POS_OS 5002                
+POS_BROWSER 5149                
+POS_SCREENSIZE 5389                
+POS_UNKNOWNREFERER 5463                
+POS_UNKNOWNREFERERBROWSER 7522                
+POS_ORIGIN 8126                
+POS_SEREFERRALS 8279                
+POS_PAGEREFS 8451                
+POS_SEARCHWORDS 19729               
+POS_KEYWORDS 19928               
+POS_MISC 2184                
+POS_ERRORS 20036               
+POS_CLUSTER 3495                
+POS_SIDER_404 20194               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of old records - Nb of new records - Nb of corrupted - Nb of dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160430001011 633 148498 11301240609370
+FirstTime 20160401003926
+LastTime 20160429231106
+LastUpdate 20160430001747 633 0 633 0 0
+TotalVisits 987                 
+TotalUnique 583                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 636                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 9
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 7 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1260 1326 6943490 123 127 209439
+1 125 157 1798502 63 82 360638
+2 460 492 3037204 63 67 450622
+3 126 199 2194327 81 90 632615
+4 449 503 3138555 68 73 401987
+5 316 405 2923466 65 76 191893
+6 137 140 784135 90 94 639955
+7 369 411 3065895 69 70 561210
+8 768 814 4759721 66 67 322095
+9 165 452 6814075 37 54 145298
+10 599 1123 11949534 251 288 466988
+11 201 514 7115116 127 154 475575
+12 161 573 8731849 122 147 625196
+13 447 787 8384873 66 94 448702
+14 241 665 9009871 144 178 241768
+15 573 952 8105797 474 498 389006
+16 153 598 9363718 70 96 437893
+17 222 395 4406026 62 72 475281
+18 146 225 2340390 119 126 365395
+19 218 218 592880 149 151 170851
+20 199 272 2204127 81 92 196592
+21 179 296 2772846 99 107 358887
+22 347 411 2768273 225 231 374934
+23 5364 5485 26438495 45 59 391984
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 13225 17413 139643165
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+unknown 270 81472 20160430001011 270 
+yandex 262 3769689 20160429203623 62 
+googlebot 160 1314497 20160429000526 39 
+crawl 78 1174197 20160424075556 6 
+robot 75 722601 20160429084136 21 
+spider 62 435860 20160429160033 22 
+baiduspider 51 675126 20160429144150 3 
+slurp 29 213199 20160429122521 12 
+python 4 1268 20160414114911 0 
+ia_archiver 4 25959 20160424215634 2 
+surveybot 4 25930 20160420143822 2 
+ibm 2 25324 20160423024721 0 
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 1739 15063144 0 0
+png 810 2366386 0 0
+php 10748 58349792 0 0
+html 2471 9559655 0 0
+js 1081 20712722 0 0
+jpg 241 9854833 0 0
+xml 1 926 0 0
+jpeg 317 23667490 0 0
+Unknown 5 68217 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winlong 35
+winxp 1257
+win2000 12
+winnt 12264
+linux 1194
+winme 2
+macosx 351
+win95 5
+win2003 33
+Unknown 2260
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+msie6.0 93
+libwww 23
+opera 44
+lynx 4
+curl 1
+msie5.5 14
+msie8.0 167
+netscape0.6 2
+itunes 4
+mozilla 9015
+netscape3.0 3
+msie7.0 70
+msie10.0 123
+msie9.0 319
+Unknown 1577
+safari 5952
+netscape 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 32
+Mozilla/5.0_(compatible;_special_archiver/3.1.1__http://www.archive.org/details/archive.org_bot) 20160405064606
+Mozilla/5.0_(compatible;_DotBot/1.1;_http://www.opensiteexplorer.org/dotbot,_help@moz.com) 20160429213730
+Mozilla/5.0_(compatible;_SeznamBot/3.2;__http://fulltext.sblog.cz/) 20160427145440
+semanticbot 20160426092435
+Mozilla/5.0_(compatible;_LinkpadBot/1.07;__http://www.linkpad.ru) 20160413055800
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20160428182532
+Mozilla/5.0_(compatible;_spbot/5.0.1;__http://OpenLinkProfiler.org/bot_) 20160420114446
+WWW-Mechanize/1.73 20160420120559
+Mozilla 20160420082152
+Java/1.7.0_79 20160401222818
+Wotbox/2.01_(_http://www.wotbox.com/bot/) 20160419182208
+Mozilla/5.0_(compatible;_SemrushBot/1~bl;__http://www.semrush.com/bot.html) 20160421141934
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20160420040126
+Microsoft_Office_Excel_2013 20160406120825
+nutch-1.4/Nutch-1.4 20160422090551
+Mozilla/5.0_(compatible;_Uptimebot/1.0;__http://www.uptime.com/uptimebot) 20160429214307
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20160419050307
+libwww-perl/5.836 20160425055957
+Mozilla/5.0_(compatible;_archive.org_bot__http://www.archive.org/details/archive.org_bot) 20160405070647
+}__test|O:21:\ 20160428214212
+Mojolicious_(Perl) 20160426112011
+- 20160429222622
+SafeDNSBot_(https://www.safedns.com/searchbot) 20160411113959
+Mozilla/0.6_Beta_(Windows) 20160426075101
+Mozilla/3.0_(compatible;_Indy_Library) 20160418105820
+libwww-perl/5.833 20160419040559
+iTunes/9.1.1 20160417053324
+Mozilla/5.0_(compatible;_PrivacyAwareBot/1.1;__http://www.privacyaware.org) 20160406162244
+Mozilla/4.0_(compatible;) 20160421103240
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20160413011938
+Apache-HttpClient/4.3.2_(java_1.5) 20160401223047
+Mozilla/5.0_(compatible;_MJ12bot/v1.4.5;_http://www.majestic12.co.uk/bot.php?_) 20160429222558
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 12
+Java/1.7.0_79 20160401222818
+Wotbox/2.01_(_http://www.wotbox.com/bot/) 20160419182208
+}__test|O:21:\ 20160428214212
+semanticbot 20160426092435
+Mojolicious_(Perl) 20160426112011
+- 20160429222622
+SafeDNSBot_(https://www.safedns.com/searchbot) 20160411113959
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20160413011938
+Microsoft_Office_Excel_2013 20160406120825
+nutch-1.4/Nutch-1.4 20160422090551
+Apache-HttpClient/4.3.2_(java_1.5) 20160401223047
+WWW-Mechanize/1.73 20160420120559
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 4162 4250
+From1 11 11
+From2 195 195
+From3 8070 8608
+From4 787 4349
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 174 174
+yandex 21 21
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 199
+http://bilgegumruk.com/administrator/index.php 6989 6989
+http://bilgegumruk.com 658 1054
+http://uptime.com/bilgegumruk.com 39 39
+http://bilgegumruk.com/index.php 32 129
+https://www.bing.com 9 9
+http://www.bing.com/search 7 7
+http://udensspices.lv 6 6
+http://royal-investments.net 6 6
+http://burger-imperia.com 6 6
+http://dneprsvet.com.ua 6 6
+http://azlex.uz 2 2
+http://bilgegumruk.com/templates/gk_blackandwhite/css/template.css 0 5
+http://bilgegumruk.com/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_imaged.php 1 1
+http://bilgegumruk.com/images/inc.php 1 1
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/mod_joomlasec.php 1 1
+http://bilgegumruk.com/modules/mod_s/mod_s.php 1 1
+http://bilgegumruk.com/modules/mod_add/mod_add.php 1 1
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/404.php 1 1
+http://dekorkeramik.ru 3 3
+http://autobudpostach.club 1 1
+http://bilgegumruk.com/modules/mod_myblog_archive/mod_myblog_archive1.php 1 1
+http://bilgegumruk.com/administrator/components/com_adsmanager/adsmanager.xml 2 2
+http://bilgegumruk.com/components/com_system/tmpl/template.php 1 1
+http://bilgegumruk.com/modules/mod_mapsapi/mod_mapsapi.php 3 3
+http://www.lego4x4.ru 3 3
+http://bilgegumruk.com/includes/widget.php 1 1
+http://bilgegumruk.com/modules/mod_random_image/tmpl/clear.php 1 1
+http://bilgegumruk.com/components/tmpl.php 1 1
+http://bilgegumruk.com/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.php 1 1
+http://bilgegumruk.com/components/index.php 1 1
+http://bilgegumruk.com/language/includes.php 1 1
+http://bilgegumruk.com/media/ef.php 1 1
+http://bilgegumruk.com/modules/mod_ariimageslidersa/system_ml.php 3 3
+http://bilgegumruk.com/templates/gk_blackandwhite/css/style1.css 4 40
+http://tvand.ru 1 1
+http://grand-chlen.ru 4 4
+http://bilgegumruk.com/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 1 1
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/voice.php 1 1
+http://bilgegumruk.com/tmp/info.php 1 1
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img/main.php 1 1
+http://bilgegumruk.com/components/com_banners/models/sys.php 1 1
+http://bilgegumruk.com/modules/mod_stats/stats.php 1 1
+http://bilgegumruk.com/plugins/system/plg_system_anticopy/anticopy.php 1 1
+http://BILGEGUMRUK.COM/index.php 1 1
+http://bilgegumruk.com/plugins/system/core/core.php 3 3
+http://bilgegumruk.com/plugins/search/conhost.php 1 1
+http://ladykrossovki.ru 2 2
+http://bilgegumruk.com/templates/system/404.php 1 1
+http://forum.tvmir.org 2 2
+http://lover.ru 3 3
+http://bilgegumruk.com/images/plagmain.php 1 1
+http://bilgegumruk.com/images/config.php 1 1
+http://all-sims.ru 1 1
+http://bilgegumruk.com/components/com_akeeba/controllers/sys.php 1 1
+http://bilgegumruk.com/administrator/includes/search.php 1 1
+http://allsilver925.co.il 3 3
+http://bilgegumruk.com/media/system/js/caption.js 0 2
+http://yandex.com.tr/clck/jsredir 1 1
+http://bilgegumruk.com/images/logs.php 3 3
+http://hvd-store.com 1 1
+http://bilgegumruk.com/images/mainik.php 1 1
+http://bilgegumruk.com/images/wso.php 1 1
+http://bilgegumruk.com/images/joomla.php 1 1
+http://coinsruss.com 2 2
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/core.php 1 1
+http://vipsiterip.org 3 3
+http://bilgegumruk.com/modules/mod_new/mod_new.php 1 1
+http://BILGEGUMRUK.COM 1 1
+http://www.pechikamini.ru 2 2
+http://pp-budpostach.com.ua/articles 3 3
+http://bilgegumruk.com/plugins/system/captcha/captcha.php 1 1
+http://bilgegumruk.com/plugins/search/libraries.php 1 1
+http://bilgegumruk.com 2 2
+http://bilgegumruk.com/administrator/components/com_simplephotogallery/simplephotogallery.xml 3 3
+http://bilgegumruk.com/libraries/cms/model/model.php 1 1
+http://bilgegumruk.com/modules/mod_fxprev/libraries/libraries.php 1 1
+http://bilgegumruk.com/plugins/user/inc.php 1 1
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/pages.php 1 1
+http://bilgegumruk.com/administrator/components/com_simpleimageupload/manifest.xml 1 1
+http://bilgegumruk.com/administrator/components/com_banners/banners.html.php 3 3
+http://bilgegumruk.com/modules/mod_articles/mod_articles.php 1 1
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img/mod_joomlasec.php 1 1
+http://den-noch24.ru 5 5
+http://bilgegumruk.com/tmp/simple.php 3 3
+http://bilgegumruk.com/images/miles.php 1 1
+http://bilgegumruk.com/administrator/components/com_simplephotogallery/lib/uploadFile.php 1 1
+http://bilgegumruk.com/modules/mod_ariimageslider/mod_ariimageslider.php 3 3
+http://bilgegumruk.com/includes/class.php 1 1
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/pages.php 1 1
+http://bilgegumruk.com/images/mod_config.php 1 1
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/ppl.php 1 1
+http://bilgegumruk.com/administrator/components/com_myblog/myblog.xml 1 1
+http://bilgegumruk.com/images/404.php 1 1
+http://bilgegumruk.com/plugins/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/en.php 1 1
+http://bilgegumruk.com/components/com_acymailing/controllers/sys.php 1 1
+http://bilgegumruk.com/administrator/components/com_installer/views/languages/thumbs.php 1 1
+http://bilgegumruk.com/media/system/js/cms.php 1 1
+http://bilgegumruk.com/modules/mod_feed/feed.php 1 1
+http://bilgegumruk.com/\\administrator\\components\\com_simpleimageupload\\manifest.xml 3 3
+http://bilgegumruk.com/media/system/js/mootools.js 0 2
+http://havepussy.com 3 3
+http://bilgegumruk.com/plugins/editors/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/404.php 1 1
+http://bilgegumruk.com/templates/atomic/error.php 1 1
+http://pozdrawleniya.com 3 3
+http://bilgegumruk.com/components/com_contact/views/index.php 1 1
+http://bilgegumruk.com/images/pack.php 1 1
+http://bilgegumruk.com/language/en-GB/en-GB.xml 1 1
+http://bilgegumruk.com/components/com_weblinks/models/index.php 1 1
+http://bilgegumruk.com/modules/mod_fxprev/helper.php 3 3
+http://bilgegumruk.com/images/tmp.php 1 1
+http://bilgegumruk.com/components/com_weblinks/links.php 1 1
+http://carsnumber.com 2 2
+http://bilgegumruk.com/administrator/ 2 2
+http://bilgegumruk.com/templates/beez/index.php 1 1
+http://bilgegumruk.com/modules/mod_aplle/mod_aplle.php 1 1
+http://bilgegumruk.com/templates/atomic/index.php 1 1
+http://iqoption-bin.com 2 2
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/voice.php 1 1
+http://bilgegumruk.com/modules/mod_araticlhess/func.php 1 1
+http://call-of-duty.info 3 3
+http://bilgegumruk.com/components/com_content/views/index.php 1 1
+http://bilgegumruk.com/modules/mod_media_style/mod_media_style.php 1 1
+http://bilgegumruk.com/images/gallery.php 1 1
+http://replicaclub.ru 5 5
+http://bilgegumruk.com/administrator/components/com_extplorer/libraries/geshi/geshi/autoit.php 3 3
+http://bilgegumruk.com/images/maink.php 1 1
+http://ideibiznesa2015.ru 3 3
+http://neolaki.net/nedemek/g%C3%BCmr%C3%BCklenmesi-olanakl%C4%B1-ne-demek.html 1 1
+http://www.hifidesign.ru 5 5
+http://bilgegumruk.com/plugins/captcha/jproicaptcha.php 1 1
+http://bilgegumruk.com/libraries/joomla/crypt/keys.php 3 3
+http://bilgegumruk.com/modules/mod_stop/mod_stop.php 1 1
+http://bilgegumruk.com/images/stcchatcc.php 1 1
+http://yoursitename.ru 3 3
+http://bilgegumruk.com/modules/mod_random_image/tmpl/styles.php 3 3
+http://bilgegumruk.com/templates/beez3/error.php 1 1
+http://bilgegumruk.com/tmp/config.php 1 1
+http://bilgegumruk.com/modules/mod_fxprev/libraries/poll.php 1 1
+http://bilgegumruk.com/templates/ja_purity/index.php 1 1
+http://bilgegumruk.com/images/index.php 1 1
+http://bilgegumruk.com/administrator/img.php 1 1
+http://bilgegumruk.com/components/com_jce/views/index.php 3 3
+http://bilgegumruk.com/templates/system/gifts.php 1 1
+http://bilgegumruk.com/libraries/libraries.php 3 3
+http://ordernorxx.com 2 2
+http://bilgegumruk.com/administrator/components/com_admin/xfile.php 1 1
+http://bilgegumruk.com/templates/atomic/system.php 1 1
+http://proekt-mos.ru 3 3
+http://bilgegumruk.com/components/com_search/views/search/index.php 3 3
+http://pizza-tycoon.com 1 1
+http://bilgegumruk.com/images/js.php 1 1
+http://273-fz.ru 3 3
+http://bilgegumruk.com/modules/mod_jcomment/mod_jcomment.php 1 1
+http://bilgegumruk.com/images/main.php 1 1
+http://euronis-free.com 3 3
+http://bilgegumruk.com/modules/mod_fxprev/libraries/eng.php 3 3
+http://tmm-kurs.ru 3 3
+http://airzip2.inspsearch.com/search/web 1 1
+http://bilgegumruk.com/administrator/xbczmsd.php 1 1
+http://allkrim.com 3 3
+http://bilgegumruk.com/modules/mod_fxprev/libraries/search.php 1 1
+http://bilgegumruk.com/components/com_user/views/index.php 3 3
+http://bilgegumruk.com/plugins/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/voice.php 1 1
+http://boleznikogi.com 4 4
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/uplo.php 1 1
+http://bilgegumruk.com/administrator/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_image.php 3 3
+http://bilgegumruk.com/modules/mod_articless/ir.php 1 1
+http://bilgegumruk.com/media/editors/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/voice.php 1 1
+http://bilgegumruk.com/images/mod.php 1 1
+http://bilgegumruk.com/modules/mod_securnet/mod_securnet.php 1 1
+http://bilgegumruk.com/plugins/system/plg_system_rewrite/copyright.php 1 1
+http://bilgegumruk.com/administrator/components/com_simpleimageupload/simpleimageupload.xml 1 1
+http://bilgegumruk.com/modules/mod_joom/mod_joom.php 3 3
+http://bilgegumruk.com/modules/mod_joomlasec/mod_joomlasec.php 3 3
+http://bilgegumruk.com/administrator/components/com_jnews/includes/openflashchart/php-ofc-library/ofc_upload_imaged.php 1 1
+http://bilgegumruk.com/images/temp.php. 1 1
+http://pizza-imperia.com 1 1
+http://porno-video-chati.ru 2 2
+http://bilgegumruk.com/administrator/components/com_flexicontent/manifest.xml 1 1
+http://arkkivoltti.net 3 3
+http://rbot.info/link/grytykikyrunudita 3 3
+http://bilgegumruk.com/components/com_content/contents.php 1 1
+http://bilgegumruk.com/components/com_weblinks/1/mysql.php 3 3
+http://www.turkishfashion.net/info.php 1 1
+http://bilgegumruk.com/tmp/tmp.php 1 1
+http://bilgegumruk.com/modules/mod_xsystem/mod_xsystem.php 1 1
+http://bilgegumruk.com/administrator/config.php 1 1
+http://bilgegumruk.com/plugins/system/anticopy.php 1 1
+http://bilgegumruk.com/modules/mod_creativecontactform/mod_creativecontactform.xml 2 2
+http://aeroc.net.ua 3 3
+http://bilgegumruk.com/modules/mod_ariimagesws/mod_ariimagesws.php 1 1
+http://bilgegumruk.com/modules/mod_araticlhess1/mod_araticlhess1.php 1 1
+http://idc.com.ua 6 6
+http://runstocks.com 3 3
+http://shopvilleroyboch.com.ua 2 2
+http://bilgegumruk.com/plugins/search/index.php 3 3
+http://bilgegumruk.com/tmp/sysm.php 1 1
+http://bilgegumruk.com/modules/mod_catalog/mod_catalog.php 1 1
+http://bilgegumruk.com/tmp/es.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+www.bilgegumruk.com 1
+bilge+g%c3%bcmr%c3%bck 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+bilge 1
+www.bilgegumruk.com 1
+g%c3%bcmr%c3%bck 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 1732 386184
+206 13 174128
+500 11 22699
+400 17 3842
+404 144 281808
+301 175 1021
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/index.php 141 -
+/ 1 http://www.bilgegumruk.com/
+//index.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start of last visit date] - [Last page of last visit]
+# [Start of last visit date] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 636
+201.164.155.88 2832 2832 12547176 20160404234906
+187.188.119.46 2832 2832 12547176 20160405000936
+45.43.192.145 1151 1151 5227293 20160423043531
+178.211.187.178 702 702 3078724 20160408120349
+187.84.232.98 617 617 2800422 20160409081214
+91.200.12.91 510 510 233302 20160426162905
+189.79.54.204 373 373 1652461 20160404234011
+200.98.201.196 306 306 1386616 20160428130545
+54.88.167.106 177 177 777384 20160420172224
+195.154.169.238 167 169 755964 20160420053139
+88.233.19.180 3 25 254072 20160421185058
+212.252.81.125 4 17 284258 20160413235507
+91.200.12.24 20 20 6340 20160429051800
+159.220.75.2 8 36 554893 20160414135456
+204.79.180.117 0 1 17258 
+202.67.10.118 1 1 317 20160428150229
+78.189.23.84 4 32 501989 20160404164933
+176.193.108.137 1 15 217604 20160401154227
+88.247.141.166 6 36 665919 20160411101802
+78.167.131.9 4 33 589506 20160426095825
+204.79.180.207 0 1 2150 
+207.46.13.105 2 2 21762 20160412103252
+192.243.55.135 10 10 102076 20160421141816
+69.30.198.242 4 4 36734 20160416101429
+51.254.103.60 3 3 37172 20160420034050
+180.153.214.199 1 1 7269 20160404135057
+52.32.69.182 2 2 4632 20160407144322
+173.208.136.114 1 1 12562 20160428140739
+207.46.13.131 1 1 12565 20160420174412
+37.145.115.61 6 60 977584 20160403055253
+95.55.247.177 1 1 12562 20160412223353
+176.9.124.8 1 1 12662 20160412114917
+204.79.180.10 0 1 12746 
+67.222.128.97 32 45 461713 20160414024224
+204.79.180.132 0 1 17258 
+37.155.18.45 8 16 244580 20160421162231
+62.210.215.113 6 6 21513 20160429053809
+207.46.13.31 9 9 161316 20160424012445
+114.40.249.181 1 1 317 20160416231114
+80.110.39.36 20 20 6340 20160419043530
+136.243.5.87 2 2 1326 20160410171324
+85.101.135.33 5 17 170419 20160412144436
+78.135.79.152 2 2 27694 20160429221211
+5.9.94.207 1 1 61601 20160409080538
+157.55.39.199 1 1 10797 20160425011557
+40.77.167.8 3 3 87644 20160426001626
+40.121.137.2 29 29 653423 20160426092435
+204.79.180.18 0 1 12746 
+204.79.180.75 0 1 5574 
+178.140.84.50 3 30 488791 20160404034344
+37.187.146.46 20 20 6340 20160426122604
+189.26.18.151 87 87 395271 20160402223832
+62.210.97.48 1 1 12665 20160425093736
+101.226.33.206 1 3 83853 20160414135057
+213.254.241.4 9 9 113679 20160428170527
+212.144.99.246 4 4 1268 20160410193149
+201.170.225.224 2 2 12644 20160407003558
+94.23.19.178 1 1 12665 20160413153555
+83.217.27.128 1 1 12561 20160421114614
+176.55.39.97 4 33 589506 20160419140236
+213.74.137.19 11 40 733879 20160420111336
+5.9.89.170 1 1 12665 20160422025110
+5.9.28.226 1 1 582 20160411082316
+207.241.229.215 0 4 31291 
+178.63.13.15 3 3 19819 20160411132442
+207.46.13.66 3 3 85948 20160412110033
+5.47.242.210 3 25 300807 20160416133159
+207.46.13.70 1 1 12130 20160421171901
+81.170.209.200 1 1 317 20160426072009
+70.39.157.197 4 4 50524 20160428151545
+40.77.167.72 5 5 63002 20160417112812
+192.243.55.129 2 2 21762 20160421141651
+207.46.13.92 6 6 76124 20160412110635
+5.79.68.56 10 10 177283 20160413055800
+109.86.72.163 3 3 24655 20160414050910
+212.227.221.10 20 20 6340 20160425195706
+95.91.131.187 3 3 39049 20160407025749
+157.55.39.247 1 1 10797 20160421223917
+213.14.151.1 20 31 415129 20160401005512
+207.46.13.147 1 1 12565 20160424232759
+193.201.224.8 81 81 355752 20160421192220
+193.140.188.20 3 30 488792 20160427165936
+45.33.36.127 6 6 0 20160429002936
+157.55.39.128 1 1 10797 20160421122300
+83.10.253.228 1 1 10877 20160422095302
+207.46.13.29 1 1 12130 20160408075141
+82.162.0.119 1 1 12562 20160422141046
+192.187.114.11 3 3 37695 20160414114909
+62.213.77.37 2 2 13964 20160418195259
+31.184.238.235 10 10 128014 20160405103020
+51.254.247.22 70 70 46926 20160426105405
+40.77.167.87 2 2 73813 20160408024732
+207.46.13.183 5 5 162352 20160424232811
+144.76.12.78 8 8 33342 20160423074501
+46.2.241.9 4 34 591333 20160405132257
+31.206.58.29 8 15 353896 20160420002830
+95.28.88.221 3 27 261994 20160401154216
+207.46.13.118 1 1 10797 20160419205656
+109.163.234.8 1 1 12562 20160412063014
+107.170.13.135 1 1 12631 20160424013641
+77.75.77.95 1 1 17381 20160425055340
+157.55.39.15 1 1 14775 20160415152836
+204.79.180.101 0 1 11924 
+88.250.18.6 3 30 488792 20160420095821
+91.196.95.30 13 13 169184 20160424091448
+88.246.168.222 7 36 626022 20160424222305
+185.129.62.63 1 1 12562 20160407053719
+217.169.193.97 10 78 1258520 20160429090517
+176.41.90.193 8 59 882711 20160418140024
+46.105.100.183 20 20 343630 20160415111029
+51.255.51.68 2 2 1326 20160420123849
+13.90.210.143 2 2 12565 20160406080233
+162.247.72.202 1 1 12562 20160422022540
+46.172.221.45 2 2 12631 20160404001534
+62.210.115.133 8 8 50350 20160427214818
+95.70.201.181 3 29 430737 20160413161155
+88.255.104.132 8 37 690552 20160405133517
+207.46.13.127 4 4 44106 20160403130334
+87.236.215.247 2 2 25130 20160406165351
+66.249.93.233 3 5 94053 20160409164854
+151.250.161.152 3 30 488792 20160415210756
+204.79.180.82 0 1 24500 
+208.40.250.69 1 1 4319 20160415141620
+77.75.76.172 1 1 13287 20160427145440
+157.55.39.97 1 1 12665 20160428182532
+159.224.0.215 6 6 32902 20160424014028
+93.115.95.216 1 1 12562 20160425011940
+78.158.11.226 2 2 9829 20160420040126
+46.118.156.3 42 42 453216 20160428194958
+192.243.55.136 6 6 67125 20160421141528
+31.47.255.36 60 60 19020 20160425060634
+185.104.120.4 1 1 12562 20160408010527
+204.79.180.90 0 1 74434 
+85.96.148.176 7 63 1054672 20160415160919
+204.79.180.252 0 1 1626 
+101.226.93.234 1 1 7269 20160402135152
+171.13.14.27 1 1 12665 20160406042524
+169.54.233.120 1 1 13797 20160425101706
+166.62.122.56 2 2 12644 20160406192035
+176.41.125.217 5 27 330519 20160419234357
+68.64.168.226 3 3 12953 20160426200957
+85.108.200.135 3 30 488792 20160401125203
+188.32.48.198 3 25 300812 20160406210823
+195.154.185.20 5 5 8984 20160419015709
+216.17.99.183 1 1 12562 20160426111036
+176.54.107.168 5 17 217123 20160426234554
+192.243.55.137 2 2 23692 20160421140927
+62.210.148.247 1 1 12665 20160420002218
+150.70.173.59 1 1 12631 20160429170439
+195.154.200.93 7 7 41386 20160413191243
+88.247.93.151 8 37 638370 20160429103454
+144.76.29.162 9 9 33861 20160422223232
+94.23.221.177 35 35 23463 20160403100826
+23.105.184.244 1 1 11285 20160413103948
+88.224.254.198 3 30 488792 20160409005304
+204.79.180.114 0 3 19380 
+78.188.40.172 3 30 488792 20160415174602
+88.246.88.240 8 38 694641 20160421152707
+213.254.241.6 13 13 164203 20160429155510
+188.166.13.147 1 1 12565 20160406211105
+195.154.187.115 13 13 65293 20160427114854
+138.201.20.12 1 1 12562 20160421210912
+46.196.168.10 5 33 517642 20160427202328
+5.9.112.6 1 1 61600 20160406133129
+136.243.17.161 1 1 61595 20160407035316
+176.9.179.116 2 2 634 20160417171406
+90.188.118.206 2 2 0 20160416134124
+188.138.41.210 1 1 12562 20160414101151
+95.130.11.147 1 1 12562 20160423043045
+112.64.235.246 1 3 83853 20160410135035
+23.105.184.220 1 1 11284 20160408211849
+31.220.45.6 2 2 8861 20160413062300
+150.70.188.175 1 1 44 20160429170547
+144.76.7.107 3 3 34128 20160422064801
+185.60.227.5 4 33 589506 20160406123152
+198.20.228.41 2 2 634 20160417063631
+212.57.23.50 4 33 589506 20160408111501
+35.0.127.52 1 1 12562 20160422123543
+207.241.229.49 1 2 80473 20160405060516
+171.25.193.77 1 1 12562 20160427200534
+95.142.161.63 2 2 8861 20160409152124
+83.143.240.5 42 42 186636 20160402203549
+46.4.116.197 4 4 32484 20160418210028
+69.30.215.142 2 2 7177 20160425065756
+62.210.170.165 5 5 27226 20160407114313
+77.72.184.58 17 96 1545895 20160429094157
+91.236.75.51 8 8 83003 20160423022354
+109.252.177.172 2 21 166884 20160402084019
+207.46.13.156 2 2 12982 20160423200039
+81.215.202.78 7 36 675239 20160426165316
+213.14.158.103 6 60 977584 20160425142631
+78.184.142.31 3 26 338598 20160408112741
+5.9.63.149 5 5 44316 20160427223816
+194.150.168.79 1 1 12562 20160422202556
+77.75.78.166 1 1 61604 20160425223926
+83.10.210.77 1 1 10878 20160420125656
+151.80.41.241 15 15 151731 20160417052911
+66.249.93.231 0 3 94500 
+178.241.194.197 4 4 75318 20160401122832
+80.91.162.99 9 9 48832 20160419205752
+5.9.151.22 3 3 24069 20160427172625
+31.202.212.95 1 1 317 20160422210224
+200.45.77.38 1 1 317 20160414163035
+204.79.180.195 0 1 18257 
+176.62.77.42 1 1 317 20160413012034
+91.93.197.1 4 32 551720 20160427153532
+74.91.26.114 2 2 25322 20160420143533
+88.250.55.165 5 34 602168 20160413151249
+65.55.210.254 2 25 327720 20160408144154
+88.234.160.178 3 29 430606 20160412090649
+207.46.13.9 1 1 12586 20160423000321
+94.199.151.22 12 12 190410 20160419182208
+157.55.39.245 2 2 25330 20160424125726
+92.241.245.126 1 1 12561 20160404215950
+204.79.180.77 0 1 4584 
+109.100.133.107 35 35 23463 20160407102711
+80.70.242.8 3 30 488761 20160422164741
+36.78.142.124 1 1 317 20160419154641
+37.155.50.74 1 1 7293 20160421213954
+164.132.47.230 4 4 8514 20160419061037
+131.253.25.176 1 18 210565 20160401032746
+79.110.31.75 1 1 12562 20160411120343
+107.163.208.153 1 1 11315 20160412121422
+78.135.79.139 2 2 27694 20160429222622
+88.247.109.39 4 33 589506 20160406123603
+212.47.239.255 2 2 1326 20160422135841
+5.149.254.109 2 2 12848 20160426043908
+46.234.16.2 3 30 488691 20160414140605
+69.30.213.138 4 4 32484 20160424094229
+40.77.167.31 5 5 63438 20160415070704
+193.201.227.163 2 2 16880 20160420082152
+199.19.249.196 2 2 12706 20160421103241
+4.79.123.1 6 6 75786 20160428173102
+204.79.180.94 0 1 74434 
+216.163.188.228 1 1 12561 20160420180357
+195.245.112.158 1 1 12562 20160428105323
+95.13.44.77 4 32 531451 20160422122641
+94.242.246.23 1 1 12562 20160421095031
+192.243.55.138 2 2 24879 20160421141229
+51.254.143.240 2 2 26291 20160419170646
+103.43.150.142 1 1 12562 20160414203934
+85.97.205.244 4 33 589506 20160420104449
+85.104.35.155 164 164 741736 20160420001627
+78.186.0.84 3 30 488792 20160415102955
+204.79.180.4 1 1 12531 20160424201351
+108.59.8.80 1 1 4615 20160421021728
+207.46.13.19 3 3 87634 20160419205703
+204.79.180.188 0 2 26890 
+208.43.225.84 1 1 12665 20160419050307
+104.250.159.74 3 21 250773 20160428184712
+5.25.9.236 5 33 568927 20160419231646
+69.58.178.57 11 11 185161 20160413011957
+5.101.222.11 1 1 317 20160425183949
+92.198.23.72 9 37 577986 20160425100600
+69.30.213.202 2 2 7467 20160415113135
+91.236.74.165 23 23 265925 20160423065303
+176.43.145.22 3 25 300728 20160415102714
+78.46.50.246 2 2 899 20160420233305
+192.187.104.235 1 1 3341 20160415194737
+204.79.180.122 0 1 2644 
+78.187.46.221 9 37 567555 20160401111825
+207.46.13.63 6 6 78213 20160405035545
+45.79.81.142 12 12 0 20160429120503
+193.171.202.150 1 1 12562 20160403221917
+69.30.219.2 2 2 15496 20160418041211
+150.70.97.97 1 1 12631 20160429171118
+40.77.167.83 1 1 12665 20160403004644
+85.101.37.34 7 43 719231 20160421124301
+5.47.137.202 3 29 430737 20160419142100
+150.70.188.179 1 1 12631 20160426142617
+5.47.67.195 4 11 217297 20160428182929
+89.248.172.173 1 1 13797 20160416234730
+94.154.239.69 3 3 19819 20160404131501
+217.103.97.99 4 4 8514 20160425023420
+40.77.167.71 6 6 76024 20160410002956
+51.254.131.243 1 1 12665 20160422171138
+178.240.253.237 2 14 132080 20160428214613
+177.137.90.136 1 1 317 20160413061209
+101.226.33.201 1 1 7269 20160417134832
+190.153.213.91 4 4 1268 20160408050332
+87.242.64.192 20 20 6340 20160425213459
+62.210.162.42 2 2 25130 20160428214212
+77.66.6.76 4 4 1268 20160426054052
+107.170.159.102 11 11 190108 20160410054936
+176.15.55.93 3 30 488792 20160406210813
+117.78.13.56 1 1 12665 20160422090551
+5.79.68.161 2 2 8861 20160411154745
+37.75.14.2 6 35 614830 20160419103938
+70.39.157.192 3 3 37893 20160428160341
+95.6.13.102 4 33 589506 20160421212531
+70.39.157.198 9 9 113679 20160428153832
+207.46.13.169 2 2 73655 20160416223538
+46.172.215.198 2 2 12631 20160406192031
+178.241.218.120 3 16 227067 20160422111749
+31.169.67.37 159 161 452558 20160401223047
+198.71.228.48 20 20 6340 20160429142310
+216.163.188.226 1 1 12561 20160411154542
+46.161.9.6 10 10 164650 20160417053324
+74.208.180.123 20 20 6340 20160426151413
+93.80.170.202 3 30 488792 20160401220332
+88.248.138.231 10 68 1204336 20160414140355
+37.1.202.225 2 2 634 20160427190726
+40.77.167.44 5 5 63002 20160419205707
+217.115.10.131 1 1 12562 20160420133238
+78.182.211.196 11 40 729700 20160405163057
+40.77.167.2 2 2 25330 20160409152217
+91.226.140.5 17 17 151142 20160429125344
+177.75.16.72 1 1 13938 20160429220757
+72.177.107.184 2 2 25124 20160424150826
+50.97.203.162 20 20 6340 20160429140135
+46.148.30.54 1 1 11315 20160418052742
+157.55.39.254 2 2 78891 20160408194545
+121.166.148.228 1 1 12562 20160413144205
+176.41.70.122 4 32 531451 20160412143029
+78.168.252.88 3 30 488792 20160424120901
+62.210.152.87 1 1 317 20160416173926
+117.18.75.235 2 2 8861 20160402031512
+204.79.180.104 0 1 1648 
+185.14.195.169 1 1 11315 20160419225702
+204.79.180.179 0 2 19147 
+80.227.174.18 40 40 193292 20160419195634
+176.31.180.157 1 1 12562 20160406154751
+213.74.181.34 4 32 551730 20160407160125
+46.161.3.202 4 4 45260 20160407220814
+78.166.32.198 3 30 488792 20160427135414
+157.55.39.253 0 1 15084 
+88.234.10.169 8 37 698195 20160405145127
+88.198.14.171 1 1 12562 20160409133724
+176.8.91.153 13 13 148332 20160425124452
+62.210.250.66 2 2 25124 20160413235648
+85.214.140.138 12 12 3804 20160425055957
+151.80.44.159 5 5 62810 20160416031510
+201.251.147.66 5 34 602168 20160416032611
+84.44.35.102 4 34 590593 20160418154034
+188.40.112.210 1 1 61601 20160414222601
+78.179.37.104 5 27 424009 20160405155519
+91.250.41.130 2 2 634 20160423024032
+40.77.167.19 1 1 10797 20160426001629
+162.210.196.97 2 2 22115 20160404141022
+51.254.141.216 4 4 8514 20160407213937
+195.154.191.204 4 4 50460 20160427200527
+204.79.180.71 0 1 2390 
+204.79.180.0 0 1 1626 
+85.107.228.144 1 1 12662 20160424173547
+195.142.246.187 4 32 589356 20160427122530
+94.242.222.40 1 1 317 20160414211324
+207.102.138.158 3 21 247934 20160410233547
+24.133.209.189 2 8 116493 20160405224550
+51.255.51.28 3 3 19819 20160406234924
+157.55.39.57 1 1 12665 20160415070732
+78.185.47.88 3 26 338598 20160422151241
+158.69.27.74 1 1 12562 20160404180639
+157.55.39.38 2 2 25230 20160405035547
+207.46.13.170 5 5 63002 20160426001641
+81.7.14.151 1 1 9723 20160417000022
+46.4.123.172 1 1 582 20160428171611
+92.249.104.63 4 4 50260 20160414034045
+176.42.191.21 8 37 739486 20160425125354
+134.249.55.100 39 39 418045 20160429134706
+171.25.193.131 1 1 12562 20160416220813
+78.189.159.185 1 2 84931 20160402154416
+37.155.54.199 1 1 7293 20160421221655
+144.76.71.83 1 1 61600 20160423094906
+185.13.32.29 1 1 12127 20160420180522
+213.179.252.56 1 1 12661 20160414204814
+185.135.8.242 5 5 1585 20160415205933
+5.9.145.132 2 2 123201 20160419151508
+178.5.133.89 4 4 31651 20160429165943
+149.202.54.50 4 4 31651 20160422010950
+95.28.78.184 3 30 488761 20160402101708
+162.251.81.110 4 4 1268 20160426054025
+204.79.180.21 0 1 12973 
+207.241.229.151 2 7 105033 20160405064704
+92.101.92.69 2 2 8630 20160427081815
+176.99.116.155 2 2 12631 20160407003549
+78.183.74.104 4 30 445941 20160407155059
+66.249.93.235 1 3 74880 20160409164802
+212.252.96.252 29 29 127486 20160401171825
+83.217.25.65 1 1 12215 20160423061628
+204.79.180.213 0 1 74434 
+173.255.243.26 1 1 0 20160409195252
+192.119.59.7 6 6 72760 20160413195244
+85.98.52.198 4 33 589506 20160419111539
+70.39.157.194 1 1 12631 20160425095001
+41.34.203.123 2 2 24832 20160404001552
+4.79.123.0 2 2 25262 20160428164511
+88.234.58.80 4 32 531451 20160421132759
+78.182.192.166 13 42 845019 20160407014250
+5.164.69.238 3 30 488792 20160401044943
+204.79.180.175 0 1 11924 
+162.210.196.129 4 4 8232 20160403152858
+208.115.113.83 19 19 378928 20160429183747
+192.243.55.130 4 4 56124 20160421135113
+157.55.39.76 1 1 12565 20160401133722
+62.210.192.249 70 70 46926 20160418104615
+78.188.11.54 4 33 589506 20160428165354
+5.9.85.4 5 5 9249 20160420235637
+51.254.129.87 1 1 582 20160425101620
+178.19.111.210 3 3 12845 20160402132829
+176.55.55.177 4 16 150076 20160425160153
+204.79.180.135 0 1 1385 
+195.235.189.254 3 30 488792 20160412162232
+5.9.62.130 4 4 26909 20160403032458
+78.179.94.123 1 1 9723 20160417154520
+195.33.205.162 4 32 531389 20160405170952
+65.52.154.119 1 1 317 20160415220846
+37.155.55.12 1 1 7293 20160421220315
+212.65.157.142 1 5 97939 20160409125018
+40.77.167.51 1 1 12665 20160412103613
+45.33.59.157 5 5 0 20160426194705
+109.86.88.90 7 7 83330 20160409152629
+208.115.111.66 16 16 192810 20160429213730
+69.30.236.2 1 1 10881 20160407185507
+31.184.238.111 8 8 96214 20160419082431
+84.44.9.19 4 23 321332 20160421103240
+88.255.123.50 3 25 300821 20160418115310
+176.9.131.69 6 6 43888 20160424135431
+204.79.180.72 0 1 2390 
+74.218.205.120 1 1 12631 20160404001536
+178.17.174.99 1 1 12562 20160410225443
+92.45.52.170 6 35 663034 20160428163910
+157.55.39.118 1 1 12565 20160426001634
+151.80.44.115 4 4 8514 20160409175131
+204.79.180.113 0 1 12973 
+178.203.146.227 4 4 51714 20160405224712
+213.254.241.7 6 6 75786 20160428163845
+85.214.245.199 1 1 12565 20160426112011
+78.173.40.132 4 32 531451 20160429170335
+46.229.170.197 2 2 25123 20160411010735
+157.55.39.56 1 1 12565 20160424055559
+131.253.25.215 2 24 239216 20160415230231
+188.165.234.68 10 10 171805 20160429061548
+85.31.186.82 2 2 22254 20160402211552
+69.30.198.178 5 5 8908 20160416122326
+89.248.160.192 1 1 13897 20160416053511
+195.9.192.203 3 25 300807 20160407152850
+2.93.160.183 13 13 159131 20160407050433
+157.55.39.181 1 1 12565 20160427173838
+128.69.168.37 2 22 241318 20160401053157
+70.39.157.199 1 1 12631 20160428093816
+78.176.71.162 3 26 338598 20160411092703
+78.188.108.113 6 53 847772 20160418100059
+46.161.9.24 4 4 52799 20160413094354
+51.254.115.252 1 1 317 20160420064359
+204.79.180.50 0 1 15084 
+212.252.164.80 4 22 388710 20160401102136
+95.27.65.169 3 30 488792 20160407152853
+216.158.203.171 2 2 13056 20160402195807
+77.247.181.163 1 1 12562 20160429225859
+204.79.180.160 1 1 44 20160404054956
+88.251.94.70 4 33 589506 20160409103307
+184.168.152.213 20 20 6340 20160425195629
+178.162.205.21 1 1 12561 20160417225409
+51.254.129.90 1 1 3341 20160417223147
+92.113.48.52 2 2 25324 20160408170616
+46.196.248.43 4 33 589506 20160406103028
+144.76.12.75 3 3 24069 20160422082857
+31.184.238.102 4 4 39931 20160422135152
+203.130.238.242 8 8 2536 20160419135328
+67.213.90.30 12 12 203575 20160409092430
+207.46.13.117 3 3 32559 20160408144145
+193.192.108.210 4 27 400204 20160414142659
+81.215.194.148 9 38 708550 20160412163002
+88.250.122.22 3 26 338598 20160404132818
+141.138.206.201 12 12 3804 20160418033204
+88.250.246.190 11 68 811662 20160415160136
+37.155.28.73 1 1 7293 20160421230042
+157.55.39.108 1 1 17381 20160425155444
+192.243.55.131 7 7 137527 20160421141400
+78.188.115.155 8 38 562090 20160411180408
+207.241.237.227 5 9 84641 20160405024611
+192.99.9.164 1 1 12662 20160428150754
+91.78.199.160 1 10 65286 20160406133327
+95.25.106.253 2 21 239429 20160401103922
+157.55.39.147 1 1 12686 20160413101805
+163.172.29.50 1 1 12661 20160415055738
+69.30.211.2 3 3 24069 20160415014035
+204.79.180.55 0 1 4584 
+82.208.180.85 1 1 317 20160424103412
+159.203.75.59 2 2 14063 20160415182055
+81.215.199.116 6 35 663769 20160415171944
+77.75.78.163 1 1 12665 20160417050555
+195.242.191.45 24 24 7608 20160406210131
+69.197.163.195 4 4 8514 20160427212506
+65.55.210.173 2 29 476130 20160420174422
+157.55.39.217 1 1 12586 20160422205133
+85.101.141.228 4 31 506173 20160406121445
+192.243.55.132 5 5 104883 20160421141934
+45.79.87.104 6 6 0 20160429214307
+204.79.180.191 0 1 12973 
+89.216.56.230 4 4 1268 20160402132326
+5.254.65.253 4 31 501454 20160415095851
+37.187.251.97 3 3 951 20160426204544
+204.79.180.243 0 1 4584 
+199.127.226.150 1 1 12562 20160405085901
+84.44.7.210 6 35 602137 20160406120835
+85.25.211.229 30 30 678295 20160422233839
+82.193.127.15 4 4 101084 20160401074257
+204.79.180.164 1 1 12531 20160404054952
+82.222.186.130 3 30 488792 20160411110625
+91.200.12.22 8 8 35444 20160402023333
+204.79.180.36 0 1 1340 
+95.0.102.254 3 30 542262 20160421145553
+207.46.13.100 0 1 15084 
+204.79.180.119 0 1 5574 
+192.243.55.133 4 4 104142 20160421141059
+198.252.44.8 40 40 135130 20160427163053
+144.76.93.46 9 9 85191 20160413073800
+87.106.213.59 11 11 3487 20160419040559
+204.79.180.148 0 1 1340 
+204.79.180.200 0 1 1385 
+187.181.226.62 88 88 399817 20160429171832
+176.36.80.39 2 2 25330 20160427140422
+62.210.148.246 4 4 36734 20160420125333
+204.79.180.210 0 1 2644 
+204.79.180.183 0 1 1626 
+5.248.253.133 15 15 146265 20160429010344
+94.55.172.217 32 183 3039896 20160425140358
+78.182.148.176 4 33 589444 20160420093518
+87.106.136.3 1 1 12562 20160402121626
+91.93.235.157 4 30 445941 20160421090152
+212.227.18.69 1 1 12562 20160409121942
+40.77.167.46 3 3 85948 20160415083703
+204.79.180.217 0 1 18257 
+204.79.180.216 0 1 11924 
+95.213.183.150 2 2 634 20160410215453
+51.254.130.58 1 1 12665 20160409143942
+78.184.87.20 3 30 488792 20160416123917
+85.104.32.168 3 3 951 20160419202451
+46.185.42.27 2 2 1243 20160402082114
+169.54.244.82 1 1 13897 20160424230236
+207.46.13.77 4 4 97794 20160405202601
+149.56.110.17 2 2 26291 20160419212639
+45.79.89.188 9 9 0 20160425235555
+81.7.17.241 1 1 12531 20160418163556
+46.148.31.21 1 1 11315 20160417140220
+159.203.90.254 11 11 190108 20160420114446
+173.208.169.42 1 1 9751 20160418124415
+95.128.43.164 1 1 12562 20160413210146
+178.17.174.10 1 1 12562 20160415092830
+157.55.39.208 4 4 96824 20160415070658
+150.70.173.11 1 1 12631 20160429171231
+157.55.39.145 1 1 14859 20160411011405
+4.79.123.2 4 4 50524 20160427200348
+213.254.241.5 14 14 176834 20160428141051
+204.79.180.222 1 1 44 20160424120739
+94.23.252.53 1 1 317 20160429231106
+157.55.39.94 2 2 23976 20160428065629
+5.39.88.131 34 47 506605 20160411070152
+107.189.60.69 3 29 430640 20160406162244
+178.240.53.34 2 14 132080 20160407153745
+188.166.26.62 4 4 55318 20160411113959
+88.233.153.254 2 8 116493 20160401202042
+79.98.107.90 1 1 12562 20160401011741
+204.79.180.218 0 2 3229 
+188.40.95.70 6 6 33810 20160415223319
+93.81.45.28 7 7 85659 20160429012832
+157.55.39.158 5 5 63002 20160424232807
+213.14.169.185 12 12 175246 20160404154551
+204.79.180.137 0 1 15088 
+70.39.157.195 2 2 25262 20160411085942
+88.255.225.92 3 30 488792 20160411143928
+40.77.167.68 3 3 37695 20160419205733
+95.7.179.201 4 31 506173 20160408145325
+70.39.157.196 3 3 37893 20160428155117
+52.36.202.129 1 1 12665 20160420120559
+62.210.107.201 4 4 8514 20160416114913
+209.126.127.49 4 4 2225 20160416204924
+86.126.97.83 1 1 12661 20160409235157
+188.32.66.110 2 20 238280 20160402020418
+213.159.38.90 4 4 49851 20160429013957
+31.202.241.227 1 1 317 20160422210130
+200.113.165.35 1 1 317 20160409112552
+91.250.15.107 1 1 317 20160422203944
+95.7.135.152 5 34 602168 20160408115617
+204.79.180.220 0 1 15088 
+204.79.180.116 0 1 18257 
+78.190.164.77 6 35 613046 20160421125421
+192.243.55.134 6 6 124097 20160421140306
+37.154.151.26 4 10 178269 20160407141054
+204.79.180.232 0 1 1385 
+148.251.54.44 1 1 61600 20160429044633
+88.249.119.241 4 32 531451 20160404155849
+198.12.85.135 1 1 12562 20160418221643
+46.4.87.105 4 4 93023 20160405103145
+204.79.180.6 0 2 26650 
+204.79.180.15 0 1 5574 
+178.140.181.192 9 90 1466376 20160402105607
+108.59.8.70 1 1 10881 20160403141958
+84.234.61.173 6 6 57734 20160416025835
+207.241.237.223 4 9 159707 20160405024434
+81.8.124.214 7 63 1062401 20160426100723
+89.163.148.58 5 5 23500 20160429193938
+193.90.12.87 1 1 12561 20160421062601
+134.249.52.13 34 34 149251 20160416215654
+150.70.173.58 1 1 10847 20160426142712
+91.237.27.0 9 9 62725 20160423115454
+194.87.232.37 4 4 50260 20160403214131
+204.79.180.180 0 1 15084 
+70.39.157.193 5 5 63155 20160428173058
+78.189.144.126 3 25 300812 20160421160351
+4.79.123.3 5 5 63155 20160428163554
+88.243.47.88 3 29 430737 20160406150558
+204.79.180.136 1 1 44 20160424201355
+94.23.199.80 35 35 23463 20160420182839
+199.116.169.254 1 1 12631 20160429171135
+92.236.71.145 18 18 29616 20160429222558
+51.255.207.29 1 1 12665 20160412015129
+204.79.180.239 0 2 4039 
+157.55.39.165 3 3 39296 20160426074401
+176.54.71.169 5 12 222304 20160407120958
+207.241.229.198 1 2 27670 20160405070647
+157.55.39.28 1 1 10881 20160423200053
+168.161.200.15 4 33 589506 20160429130850
+212.252.164.122 4 27 351260 20160426142454
+159.203.4.15 1 1 12561 20160416231551
+207.46.13.120 5 5 63438 20160423200014
+105.186.240.244 2 2 24832 20160424013654
+78.188.92.32 4 31 501454 20160429114146
+200.11.67.86 35 35 23463 20160412154821
+66.220.152.34 1 1 13897 20160403123415
+91.228.154.199 20 20 6340 20160429141117
+188.58.41.69 4 17 284268 20160422123952
+38.100.21.61 4 11 92149 20160419142817
+149.202.42.188 1 1 12562 20160420032155
+207.241.229.33 0 1 1626 
+93.115.95.207 1 1 12562 20160401075008
+178.140.239.36 2 22 241318 20160401204212
+204.79.180.153 0 1 12746 
+89.187.142.208 1 1 12562 20160405070945
+204.79.180.197 1 1 61486 20160424120734
+193.248.178.237 1 1 12562 20160407133253
+88.238.67.68 9 38 745550 20160429183643
+85.17.112.142 4 4 8514 20160420175526
+178.137.90.202 31 31 319747 20160429043208
+78.184.74.216 4 33 589506 20160421153415
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20160401 291 654 7431514 39
+20160402 246 338 2902713 39
+20160403 233 260 1493012 16
+20160404 5342 5494 26440970 29
+20160405 1108 1297 9123487 44
+20160406 194 476 6016237 36
+20160407 200 357 3929690 35
+20160408 148 279 3198789 29
+20160409 1183 1278 7743707 31
+20160410 32 52 602452 13
+20160411 85 258 3579555 20
+20160412 164 313 3136588 19
+20160413 79 164 2265329 29
+20160414 84 206 2869149 26
+20160415 104 358 5101555 41
+20160416 119 197 2052369 34
+20160417 47 47 307744 26
+20160418 115 266 2966356 31
+20160419 222 392 4399584 40
+20160420 616 847 7679223 52
+20160421 187 492 6539559 51
+20160422 93 197 2927779 38
+20160423 736 736 3921129 29
+20160424 67 160 2290384 29
+20160425 181 337 3575883 36
+20160426 620 769 4327719 45
+20160427 64 202 2984811 34
+20160428 411 520 4420379 52
+20160429 254 467 5415499 44
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 17
+5mn-15mn 20
+15mn-30mn 17
+2mn-5mn 20
+30s-2mn 66
+0s-30s 839
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/administrator/index.php 9728 43344780 76 88
+/error404.html 1509 478353 95 182
+/index.php 1005 14983616 275 338
+/ 759 8384059 515 339
+/templates/gk_blackandwhite/fonts/ 158 6952 10 18
+/insankaynaklari/ 38 660478 7 11
+/insankaynaklari/gonderildi.php 5 3075 0 2
+/administrator/ 3 12949 3 3
+/index.php#gk-content 2 27760 0 0
+// 2 334 0 0
+//index.php 1 13938 1 1
+/administrator/index.php/wp-login.php 1 4315 1 0
+/includes/menu.php 2 0 0 0
+/#gk-content 2 27718 0 0
+/includes/footer.php 2 34 0 0
+/includes/defines.php 2 34 0 0
+/language/en-GB/en-GB.xml 1 926 1 0
+/administrator/index.php/administrator/ 1 4315 0 1
+/index.php/component/user/register 1 12739 0 1
+http://bilgegumruk.com/ 1 12215 1 1
+/components/com_weblinks/router.php 2 0 2 2
+END_SIDER

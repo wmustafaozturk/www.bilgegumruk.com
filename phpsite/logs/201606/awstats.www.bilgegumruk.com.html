@@ -1,0 +1,701 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html lang='tr'>
+<head>
+<meta name="robots" content="noindex,nofollow" />
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-9" />
+<meta http-equiv="description" content="Awstats - Advanced Web Statistics for www.bilgegumruk.com" />
+<title>Site www.bilgegumruk.com</title>
+<style type="text/css">
+<!--
+body { font: 11px verdana, arial, helvetica, sans-serif; background-color: #FFFFFF; margin-top: 0; margin-bottom: 0; }
+.aws_bodyl  { }
+.aws_border { background-color: #CCCCDD; padding: 1px 1px 1px 1px; margin-top: 0; margin-bottom: 0; }
+.aws_title  { font: 13px verdana, arial, helvetica, sans-serif; font-weight: bold; background-color: #CCCCDD; text-align: center; margin-top: 0; margin-bottom: 0; padding: 1px 1px 1px 1px; }
+.aws_blank  { font: 13px verdana, arial, helvetica, sans-serif; background-color: #CCCCDD; text-align: center; margin-bottom: 0; padding: 1px 1px 1px 1px; }
+.aws_data {
+	background-color: #FFFFFF;
+	border-top-width: 1px;   
+	border-left-width: 0px;  
+	border-right-width: 0px; 
+	border-bottom-width: 0px;
+}
+.aws_formfield { font: 13px verdana, arial, helvetica; }
+.aws_button {
+	font-family: arial,verdana,helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #ccd7e0;
+	background-image : url(http://sys.sadecehosting.com/awstats-6.0//other/button.gif);
+}
+th		{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 2px 1px 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:center; color: #000000; }
+th.aws	{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 2px 1px 1px; font-size: 13px; font-weight: bold; }
+td		{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 1px 1px 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:center; color: #000000; }
+td.aws	{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 1px 1px 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:left; color: #000000; }
+td.awsm	{ border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; padding: 0px 0px 0px 0px; font: 11px verdana, arial, helvetica, sans-serif; text-align:left; color: #000000; }
+b { font-weight: bold; }
+a { font: 11px verdana, arial, helvetica, sans-serif; }
+a:link    { color: #0011BB; text-decoration: none; }
+a:visited { color: #0011BB; text-decoration: none; }
+a:hover   { color: #605040; text-decoration: underline; }
+div { font: 12px 'Arial','Verdana','Helvetica', sans-serif; text-align: justify; }
+.CTooltip { position:absolute; top: 0px; left: 0px; z-index: 2; width: 380px; visibility:hidden; font: 8pt 'MS Comic Sans','Arial',sans-serif; background-color: #FFFFE6; padding: 8px; border: 1px solid black; }
+//-->
+</style>
+</head>
+
+<body style="margin-top: 0px">
+Warning: Tried to load plugin "tooltips" twice. Fix config file.<br />
+<a name="top">&nbsp;</a>
+
+
+
+
+<script language="javascript" type="text/javascript">
+function ShowTip(fArg)
+{
+	var tooltipOBJ = (document.getElementById) ? document.getElementById('tt' + fArg) : eval("document.all['tt" + fArg + "']");
+	if (tooltipOBJ != null) {
+		var tooltipLft = (document.body.offsetWidth?document.body.offsetWidth:document.body.style.pixelWidth) - (tooltipOBJ.offsetWidth?tooltipOBJ.offsetWidth:(tooltipOBJ.style.pixelWidth?tooltipOBJ.style.pixelWidth:380)) - 30;
+		var tooltipTop = 10;
+		if (navigator.appName == 'Netscape') {
+			if (parseFloat(navigator.appVersion) >= 5) { tooltipTop = (document.body.scrollTop>=0?document.body.scrollTop+10:event.clientY+10); }
+			tooltipOBJ.style.left = tooltipLft; tooltipOBJ.style.top = tooltipTop;
+		}
+		else {
+			tooltipTop = (document.body.scrollTop>=0?document.body.scrollTop+10:event.clientY+10);
+			if ((event.clientX > tooltipLft) && (event.clientY < (tooltipOBJ.scrollHeight?tooltipOBJ.scrollHeight:tooltipOBJ.style.pixelHeight) + 10)) {
+				tooltipTop = (document.body.scrollTop?document.body.scrollTop:document.body.offsetTop) + event.clientY + 20;
+			}
+			tooltipOBJ.style.pixelLeft = tooltipLft; tooltipOBJ.style.pixelTop = tooltipTop;
+		}
+		tooltipOBJ.style.visibility = "visible";
+	}
+}
+function HideTip(fArg)
+{
+	var tooltipOBJ = (document.getElementById) ? document.getElementById('tt' + fArg) : eval("document.all['tt" + fArg + "']");
+	if (tooltipOBJ != null) {
+		tooltipOBJ.style.visibility = "hidden";
+	}
+}
+</script>
+
+<a name="menu">&nbsp;</a>
+<form name="FormDateFilter" action="/etc/awstats/cgi-bin/awstats.pl?config=www.bilgegumruk.com&staticlinks&lang=tr" style="padding: 0px 0px 0px 0px; margin-top: 0">
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td>
+<table class="aws_data" border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr><td class="aws" valign="middle"><b>Site:</b>&nbsp;</td><td class="aws"><span style="font-size: 14px;">www.bilgegumruk.com</span></td><td align="right" rowspan="3"><a href="http://sys.sadecehosting.com/siteanalizleri/" target="awstatshome"><img src="http://sys.sadecehosting.com/awstats-6.0//other/sh_siteanalizleri.gif" border="0" /></a></td></tr>
+<tr valign="middle"><td class="aws" valign="middle" width="150"><b>Son İstatistik Güncellemesi:</b>&nbsp;</td><td class="aws" valign="middle"><span style="font-size: 12px;">30 Haz 2016 - 00:18</span></td></tr>
+<tr><td class="aws" valign="middle"><b>Reported period:</b></td><td class="aws" valign="middle"><span style="font-size: 14px;">Ay Haz 2016</span></td></tr>
+</table>
+</td></tr></table>
+</form>
+
+<table>
+<tr><td class="awsm" width="150" valign="top"><b>When:</b></td>
+<td class="awsm"><a href="#month">Monthly history</a> &nbsp; <a href="#daysofmonth">Days of month</a> &nbsp; <a href="#daysofweek">Days of week</a> &nbsp; <a href="#hours">Ziyaret Saatleri (Sunucu saati)</a> &nbsp; </td></tr>
+<tr><td class="awsm" valign="top"><b>Who:</b></td>
+<td class="awsm"><a href="#countries">Countries</a> &nbsp; <a href="awstats.www.bilgegumruk.com.alldomains.html" target="awstatsbis">Tüm liste</a>
+ &nbsp; <a href="#visitors">Hosts</a> &nbsp; <a href="awstats.www.bilgegumruk.com.allhosts.html" target="awstatsbis">Tüm liste</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.lasthosts.html" target="awstatsbis">Son ziyaret</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.unknownip.html" target="awstatsbis">Çözülemeyen IP Adresleri</a>
+ &nbsp; <a href="#robots">Robot/Örümcek ziyaretleri</a> &nbsp; <a href="awstats.www.bilgegumruk.com.allrobots.html" target="awstatsbis">Tüm liste</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.lastrobots.html" target="awstatsbis">Son ziyaret</a>
+ &nbsp; </td></tr>
+<tr><td class="awsm" valign="top"><b>Gezinim:</b></td>
+<td class="awsm"><a href="#sessions">Visits duration</a> &nbsp; <a href="#filetypes">Günlük istatistikler</a> &nbsp; <a href="#urls">Erişim</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.urldetail.html" target="awstatsbis">Tüm liste</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.urlentry.html" target="awstatsbis">Entry pages</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.urlexit.html" target="awstatsbis">Exit</a>
+ &nbsp; <a href="#os">İşletim Sistemleri</a> &nbsp; <a href="awstats.www.bilgegumruk.com.osdetail.html" target="awstatsbis">Sürümler</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.unknownos.html" target="awstatsbis">Bilinmeyen</a>
+ &nbsp; <a href="#browsers">Tarayıcılar</a> &nbsp; <a href="awstats.www.bilgegumruk.com.browserdetail.html" target="awstatsbis">Sürümler</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.unknownbrowser.html" target="awstatsbis">Bilinmeyen</a>
+ &nbsp; </td></tr>
+<tr><td class="awsm" valign="top"><b>Yönlendirenler:</b></td>
+<td class="awsm"><a href="#referer">Köken</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.refererse.html" target="awstatsbis">Refering search engines</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.refererpages.html" target="awstatsbis">Refering sites</a>
+ &nbsp; <a href="#keys">Arama</a> &nbsp; <a href="awstats.www.bilgegumruk.com.keyphrases.html" target="awstatsbis">Search&nbsp;Keyphrases</a>
+ &nbsp; <a href="awstats.www.bilgegumruk.com.keywords.html" target="awstatsbis">Search&nbsp;Keywords</a>
+ &nbsp; </td></tr>
+<tr><td class="awsm" valign="top"><b>Diğerleri:</b></td>
+<td class="awsm"><a href="#misc">Miscellaneous</a> &nbsp; <a href="#errors">HTTP Hata kodları</a> &nbsp; <a href="awstats.www.bilgegumruk.com.errors404.html" target="awstatsbis">Bulunamayan Sayfalar</a>
+ &nbsp; </td></tr>
+</table>
+<br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Summary </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data month" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><td>&nbsp;</td><td><b>İlk ziyaret</b></td>
+<td colspan="3">Summary</td><td><b>Son ziyaret</b></td></tr>
+<tr bgcolor="#ECECEC"><td>&nbsp;</td><td>01 Haz 2016 - 00:13</td><td colspan="3"><b>Ay Haz 2016</b></td><td>30 Haz 2016 - 00:15</td></tr>
+<tr><td bgcolor="#ECECEC">&nbsp;</td><td width="17%" bgcolor="#FFB055" onmouseover="ShowTip(2);" onmouseout="HideTip(2);">Ayrı Ziyaretçi</td><td width="17%" bgcolor="#F8E880" onmouseover="ShowTip(1);" onmouseout="HideTip(1);">Ziyaretçi sayısı</td><td width="17%" bgcolor="#4477DD" onmouseover="ShowTip(3);" onmouseout="HideTip(3);">Sayfa</td><td width="17%" bgcolor="#66F0FF" onmouseover="ShowTip(4);" onmouseout="HideTip(4);">Hit</td><td width="17%" bgcolor="#2EA495" onmouseover="ShowTip(5);" onmouseout="HideTip(5);">Bayt</td></tr>
+<tr><td class="aws">Traffic viewed&nbsp;*</td><td><b>859</b><br />&nbsp;</td><td><b>1514</b><br />(1.76&nbsp;ziyaret sayısı/ziyaretçi sayısı)</td><td><b>6540</b><br />(4.31&nbsp;sayfa/ziyaret)</td><td><b>11572</b><br />(7.64&nbsp;hit/ziyaret)</td><td><b>127.67 MB</b><br />(86.35&nbsp;KB/ziyaret)</td></tr>
+<tr><td class="aws">Traffic not viewed&nbsp;*</td><td colspan=2>&nbsp;<br>&nbsp;</td>
+<td><b>1856</b></td><td><b>2261</b></td><td><b>8.07 MB</b></td></tr>
+</table></td></tr></table><span style="font: 11px verdana, arial, helvetica;">* Not viewed trafic is trafic generated by robots, worms or answers with special HTTP status code</span><br />
+<br />
+
+<a name="month">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Monthly history </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data month" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr><td align="center">
+<center>
+<table>
+<tr valign="bottom"><td>&nbsp;</td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="21" width="6" alt='Ayrı Ziyaretçi: 683' title='Ayrı Ziyaretçi: 683' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="33" width="6" alt='Ziyaretçi sayısı: 1109' title='Ziyaretçi sayısı: 1109' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="3" width="6" alt='Sayfa: 4794' title='Sayfa: 4794' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="5" width="6" alt='Hit: 9157' title='Hit: 9157' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="12" width="6" alt='Bayt: 106.02 MB' title='Bayt: 106.02 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="20" width="6" alt='Ayrı Ziyaretçi: 662' title='Ayrı Ziyaretçi: 662' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="30" width="6" alt='Ziyaretçi sayısı: 989' title='Ziyaretçi sayısı: 989' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="3" width="6" alt='Sayfa: 4217' title='Sayfa: 4217' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="5" width="6" alt='Hit: 7802' title='Hit: 7802' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="10" width="6" alt='Bayt: 91.47 MB' title='Bayt: 91.47 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="17" width="6" alt='Ayrı Ziyaretçi: 562' title='Ayrı Ziyaretçi: 562' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="31" width="6" alt='Ziyaretçi sayısı: 1012' title='Ziyaretçi sayısı: 1012' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="43" width="6" alt='Sayfa: 78191' title='Sayfa: 78191' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="46" width="6" alt='Hit: 83285' title='Hit: 83285' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="46" width="6" alt='Bayt: 431.78 MB' title='Bayt: 431.78 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="18" width="6" alt='Ayrı Ziyaretçi: 596' title='Ayrı Ziyaretçi: 596' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="31" width="6" alt='Ziyaretçi sayısı: 1011' title='Ziyaretçi sayısı: 1011' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="8" width="6" alt='Sayfa: 13285' title='Sayfa: 13285' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="10" width="6" alt='Hit: 17513' title='Hit: 17513' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="15" width="6" alt='Bayt: 134.35 MB' title='Bayt: 134.35 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="17" width="6" alt='Ayrı Ziyaretçi: 558' title='Ayrı Ziyaretçi: 558' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="44" width="6" alt='Ziyaretçi sayısı: 1469' title='Ziyaretçi sayısı: 1469' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="5" width="6" alt='Sayfa: 8389' title='Sayfa: 8389' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="7" width="6" alt='Hit: 12529' title='Hit: 12529' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="12" width="6" alt='Bayt: 113.73 MB' title='Bayt: 113.73 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="26" width="6" alt='Ayrı Ziyaretçi: 859' title='Ayrı Ziyaretçi: 859' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="46" width="6" alt='Ziyaretçi sayısı: 1514' title='Ziyaretçi sayısı: 1514' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="4" width="6" alt='Sayfa: 6540' title='Sayfa: 6540' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="7" width="6" alt='Hit: 11572' title='Hit: 11572' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="14" width="6" alt='Bayt: 127.67 MB' title='Bayt: 127.67 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="1" width="6" alt='Ayrı Ziyaretçi: 0' title='Ayrı Ziyaretçi: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="1" width="6" alt='Ziyaretçi sayısı: 0' title='Ziyaretçi sayısı: 0' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="1" width="6" alt='Sayfa: 0' title='Sayfa: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="1" width="6" alt='Hit: 0' title='Hit: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="1" width="6" alt='Bayt: 0' title='Bayt: 0' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="1" width="6" alt='Ayrı Ziyaretçi: 0' title='Ayrı Ziyaretçi: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="1" width="6" alt='Ziyaretçi sayısı: 0' title='Ziyaretçi sayısı: 0' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="1" width="6" alt='Sayfa: 0' title='Sayfa: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="1" width="6" alt='Hit: 0' title='Hit: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="1" width="6" alt='Bayt: 0' title='Bayt: 0' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="1" width="6" alt='Ayrı Ziyaretçi: 0' title='Ayrı Ziyaretçi: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="1" width="6" alt='Ziyaretçi sayısı: 0' title='Ziyaretçi sayısı: 0' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="1" width="6" alt='Sayfa: 0' title='Sayfa: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="1" width="6" alt='Hit: 0' title='Hit: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="1" width="6" alt='Bayt: 0' title='Bayt: 0' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="1" width="6" alt='Ayrı Ziyaretçi: 0' title='Ayrı Ziyaretçi: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="1" width="6" alt='Ziyaretçi sayısı: 0' title='Ziyaretçi sayısı: 0' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="1" width="6" alt='Sayfa: 0' title='Sayfa: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="1" width="6" alt='Hit: 0' title='Hit: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="1" width="6" alt='Bayt: 0' title='Bayt: 0' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="1" width="6" alt='Ayrı Ziyaretçi: 0' title='Ayrı Ziyaretçi: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="1" width="6" alt='Ziyaretçi sayısı: 0' title='Ziyaretçi sayısı: 0' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="1" width="6" alt='Sayfa: 0' title='Sayfa: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="1" width="6" alt='Hit: 0' title='Hit: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="1" width="6" alt='Bayt: 0' title='Bayt: 0' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vu.png" height="1" width="6" alt='Ayrı Ziyaretçi: 0' title='Ayrı Ziyaretçi: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="1" width="6" alt='Ziyaretçi sayısı: 0' title='Ziyaretçi sayısı: 0' />&nbsp;<img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="1" width="6" alt='Sayfa: 0' title='Sayfa: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="1" width="6" alt='Hit: 0' title='Hit: 0' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="1" width="6" alt='Bayt: 0' title='Bayt: 0' /></td>
+<td>&nbsp;</td></tr>
+<tr valign="middle"><td>&nbsp;</td><td>Oca<br />2016</td><td>Şub<br />2016</td><td>Mar<br />2016</td><td>Nis<br />2016</td><td>May<br />2016</td><td>Haz<br />2016</td><td>Tem<br />2016</td><td>Agu<br />2016</td><td>Eyl<br />2016</td><td>Eki<br />2016</td><td>Kas<br />2016</td><td>Ara<br />2016</td><td>&nbsp;</td></tr>
+</table>
+<br />
+<table>
+<tr><td width="80" bgcolor="#ECECEC">Ay</td><td width="80" bgcolor="#FFB055" onmouseover="ShowTip(2);" onmouseout="HideTip(2);">Ayrı Ziyaretçi</td><td width="80" bgcolor="#F8E880" onmouseover="ShowTip(1);" onmouseout="HideTip(1);">Ziyaretçi sayısı</td><td width="80" bgcolor="#4477DD" onmouseover="ShowTip(3);" onmouseout="HideTip(3);">Sayfa</td><td width="80" bgcolor="#66F0FF" onmouseover="ShowTip(4);" onmouseout="HideTip(4);">Hit</td><td width="80" bgcolor="#2EA495" onmouseover="ShowTip(5);" onmouseout="HideTip(5);">Bayt</td></tr>
+<tr><td>Oca 2016</td><td>683</td><td>1109</td><td>4794</td><td>9157</td><td>106.02 MB</td></tr>
+<tr><td>Şub 2016</td><td>662</td><td>989</td><td>4217</td><td>7802</td><td>91.47 MB</td></tr>
+<tr><td>Mar 2016</td><td>562</td><td>1012</td><td>78191</td><td>83285</td><td>431.78 MB</td></tr>
+<tr><td>Nis 2016</td><td>596</td><td>1011</td><td>13285</td><td>17513</td><td>134.35 MB</td></tr>
+<tr><td>May 2016</td><td>558</td><td>1469</td><td>8389</td><td>12529</td><td>113.73 MB</td></tr>
+<tr><td>Haz 2016</td><td>859</td><td>1514</td><td>6540</td><td>11572</td><td>127.67 MB</td></tr>
+<tr><td>Tem 2016</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Agu 2016</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Eyl 2016</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Eki 2016</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Kas 2016</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Ara 2016</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td bgcolor="#ECECEC">Total</td><td bgcolor="#ECECEC">3920</td><td bgcolor="#ECECEC">7104</td><td bgcolor="#ECECEC">115416</td><td bgcolor="#ECECEC">141858</td><td bgcolor="#ECECEC">1005.02 MB</td></tr>
+</table>
+<br />
+</center>
+</td></tr>
+</table></td></tr></table><br />
+
+
+<a name="when">&nbsp;</a>
+
+<a name="daysofmonth">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Days of month </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data daysofmonth" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr><td align="center">
+<center>
+<table>
+<tr valign="bottom">
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="31" width="4" alt='Ziyaretçi sayısı: 62' title='Ziyaretçi sayısı: 62' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="20" width="4" alt='Sayfa: 339' title='Sayfa: 339' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="39" width="4" alt='Hit: 691' title='Hit: 691' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="46" width="4" alt='Bayt: 8.45 MB' title='Bayt: 8.45 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="27" width="4" alt='Ziyaretçi sayısı: 54' title='Ziyaretçi sayısı: 54' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="8" width="4" alt='Sayfa: 139' title='Sayfa: 139' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="22" width="4" alt='Hit: 374' title='Hit: 374' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="28" width="4" alt='Bayt: 5.20 MB' title='Bayt: 5.20 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="25" width="4" alt='Ziyaretçi sayısı: 50' title='Ziyaretçi sayısı: 50' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="20" width="4" alt='Sayfa: 344' title='Sayfa: 344' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="24" width="4" alt='Hit: 416' title='Hit: 416' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="17" width="4" alt='Bayt: 3.11 MB' title='Bayt: 3.11 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="16" width="4" alt='Ziyaretçi sayısı: 31' title='Ziyaretçi sayısı: 31' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="5" width="4" alt='Sayfa: 84' title='Sayfa: 84' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="7" width="4" alt='Hit: 109' title='Hit: 109' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="5" width="4" alt='Bayt: 808.59 KB' title='Bayt: 808.59 KB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="20" width="4" alt='Ziyaretçi sayısı: 41' title='Ziyaretçi sayısı: 41' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="5" width="4" alt='Sayfa: 81' title='Sayfa: 81' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="5" width="4" alt='Hit: 81' title='Hit: 81' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="4" width="4" alt='Bayt: 589.35 KB' title='Bayt: 589.35 KB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="28" width="4" alt='Ziyaretçi sayısı: 57' title='Ziyaretçi sayısı: 57' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="7" width="4" alt='Sayfa: 123' title='Sayfa: 123' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="16" width="4" alt='Hit: 268' title='Hit: 268' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="19" width="4" alt='Bayt: 3.52 MB' title='Bayt: 3.52 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="24" width="4" alt='Ziyaretçi sayısı: 49' title='Ziyaretçi sayısı: 49' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="8" width="4" alt='Sayfa: 130' title='Sayfa: 130' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="24" width="4" alt='Hit: 426' title='Hit: 426' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="27" width="4" alt='Bayt: 5.03 MB' title='Bayt: 5.03 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="16" width="4" alt='Ziyaretçi sayısı: 33' title='Ziyaretçi sayısı: 33' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="11" width="4" alt='Sayfa: 193' title='Sayfa: 193' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="36" width="4" alt='Hit: 629' title='Hit: 629' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="42" width="4" alt='Bayt: 7.74 MB' title='Bayt: 7.74 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="25" width="4" alt='Ziyaretçi sayısı: 50' title='Ziyaretçi sayısı: 50' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="12" width="4" alt='Sayfa: 206' title='Sayfa: 206' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="21" width="4" alt='Hit: 371' title='Hit: 371' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="20" width="4" alt='Bayt: 3.67 MB' title='Bayt: 3.67 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="22" width="4" alt='Ziyaretçi sayısı: 45' title='Ziyaretçi sayısı: 45' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="9" width="4" alt='Sayfa: 151' title='Sayfa: 151' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="28" width="4" alt='Hit: 489' title='Hit: 489' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="39" width="4" alt='Bayt: 7.24 MB' title='Bayt: 7.24 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="15" width="4" alt='Ziyaretçi sayısı: 29' title='Ziyaretçi sayısı: 29' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="6" width="4" alt='Sayfa: 95' title='Sayfa: 95' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="10" width="4" alt='Hit: 164' title='Hit: 164' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="11" width="4" alt='Bayt: 1.99 MB' title='Bayt: 1.99 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="13" width="4" alt='Ziyaretçi sayısı: 26' title='Ziyaretçi sayısı: 26' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="3" width="4" alt='Sayfa: 49' title='Sayfa: 49' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="5" width="4" alt='Hit: 85' title='Hit: 85' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="6" width="4" alt='Bayt: 1016.85 KB' title='Bayt: 1016.85 KB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="13" width="4" alt='Ziyaretçi sayısı: 25' title='Ziyaretçi sayısı: 25' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="17" width="4" alt='Sayfa: 287' title='Sayfa: 287' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="24" width="4" alt='Hit: 421' title='Hit: 421' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="20" width="4" alt='Bayt: 3.58 MB' title='Bayt: 3.58 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="29" width="4" alt='Ziyaretçi sayısı: 58' title='Ziyaretçi sayısı: 58' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="18" width="4" alt='Sayfa: 309' title='Sayfa: 309' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="30" width="4" alt='Hit: 519' title='Hit: 519' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="29" width="4" alt='Bayt: 5.26 MB' title='Bayt: 5.26 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="25" width="4" alt='Ziyaretçi sayısı: 50' title='Ziyaretçi sayısı: 50' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="8" width="4" alt='Sayfa: 135' title='Sayfa: 135' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="27" width="4" alt='Hit: 472' title='Hit: 472' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="38" width="4" alt='Bayt: 7.04 MB' title='Bayt: 7.04 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="41" width="4" alt='Ziyaretçi sayısı: 83' title='Ziyaretçi sayısı: 83' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="38" width="4" alt='Sayfa: 672' title='Sayfa: 672' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="46" width="4" alt='Hit: 799' title='Hit: 799' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="30" width="4" alt='Bayt: 5.59 MB' title='Bayt: 5.59 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="36" width="4" alt='Ziyaretçi sayısı: 74' title='Ziyaretçi sayısı: 74' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="32" width="4" alt='Sayfa: 563' title='Sayfa: 563' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="43" width="4" alt='Hit: 760' title='Hit: 760' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="37" width="4" alt='Bayt: 6.76 MB' title='Bayt: 6.76 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="20" width="4" alt='Ziyaretçi sayısı: 41' title='Ziyaretçi sayısı: 41' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="5" width="4" alt='Sayfa: 86' title='Sayfa: 86' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="10" width="4" alt='Hit: 170' title='Hit: 170' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="11" width="4" alt='Bayt: 2.04 MB' title='Bayt: 2.04 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="14" width="4" alt='Ziyaretçi sayısı: 27' title='Ziyaretçi sayısı: 27' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="4" width="4" alt='Sayfa: 63' title='Sayfa: 63' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="7" width="4" alt='Hit: 114' title='Hit: 114' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="7" width="4" alt='Bayt: 1.17 MB' title='Bayt: 1.17 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="32" width="4" alt='Ziyaretçi sayısı: 66' title='Ziyaretçi sayısı: 66' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="18" width="4" alt='Sayfa: 318' title='Sayfa: 318' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="34" width="4" alt='Hit: 599' title='Hit: 599' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="41" width="4" alt='Bayt: 7.58 MB' title='Bayt: 7.58 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="46" width="4" alt='Ziyaretçi sayısı: 93' title='Ziyaretçi sayısı: 93' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="24" width="4" alt='Sayfa: 417' title='Sayfa: 417' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="37" width="4" alt='Hit: 655' title='Hit: 655' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="38" width="4" alt='Bayt: 7.12 MB' title='Bayt: 7.12 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="39" width="4" alt='Ziyaretçi sayısı: 80' title='Ziyaretçi sayısı: 80' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="11" width="4" alt='Sayfa: 193' title='Sayfa: 193' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="21" width="4" alt='Hit: 356' title='Hit: 356' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="24" width="4" alt='Bayt: 4.40 MB' title='Bayt: 4.40 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="39" width="4" alt='Ziyaretçi sayısı: 80' title='Ziyaretçi sayısı: 80' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="27" width="4" alt='Sayfa: 478' title='Sayfa: 478' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="36" width="4" alt='Hit: 635' title='Hit: 635' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="31" width="4" alt='Bayt: 5.73 MB' title='Bayt: 5.73 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="36" width="4" alt='Ziyaretçi sayısı: 74' title='Ziyaretçi sayısı: 74' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="15" width="4" alt='Sayfa: 254' title='Sayfa: 254' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="32" width="4" alt='Hit: 552' title='Hit: 552' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="41" width="4" alt='Bayt: 7.60 MB' title='Bayt: 7.60 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="19" width="4" alt='Ziyaretçi sayısı: 38' title='Ziyaretçi sayısı: 38' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="9" width="4" alt='Sayfa: 147' title='Sayfa: 147' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="12" width="4" alt='Hit: 204' title='Hit: 204' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="10" width="4" alt='Bayt: 1.76 MB' title='Bayt: 1.76 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="12" width="4" alt='Ziyaretçi sayısı: 23' title='Ziyaretçi sayısı: 23' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="3" width="4" alt='Sayfa: 48' title='Sayfa: 48' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="5" width="4" alt='Hit: 75' title='Hit: 75' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="5" width="4" alt='Bayt: 847.31 KB' title='Bayt: 847.31 KB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="28" width="4" alt='Ziyaretçi sayısı: 57' title='Ziyaretçi sayısı: 57' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="10" width="4" alt='Sayfa: 176' title='Sayfa: 176' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="21" width="4" alt='Hit: 366' title='Hit: 366' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="25" width="4" alt='Bayt: 4.67 MB' title='Bayt: 4.67 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="33" width="4" alt='Ziyaretçi sayısı: 67' title='Ziyaretçi sayısı: 67' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="9" width="4" alt='Sayfa: 146' title='Sayfa: 146' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="23" width="4" alt='Hit: 406' title='Hit: 406' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="30" width="4" alt='Bayt: 5.48 MB' title='Bayt: 5.48 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="24" width="4" alt='Ziyaretçi sayısı: 49' title='Ziyaretçi sayısı: 49' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="18" width="4" alt='Sayfa: 311' title='Sayfa: 311' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="21" width="4" alt='Hit: 363' title='Hit: 363' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="15" width="4" alt='Bayt: 2.74 MB' title='Bayt: 2.74 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="1" width="4" alt='Ziyaretçi sayısı: 2' title='Ziyaretçi sayısı: 2' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="1" width="4" alt='Sayfa: 3' title='Sayfa: 3' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="1" width="4" alt='Hit: 3' title='Hit: 3' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="1" width="4" alt='Bayt: 35.97 KB' title='Bayt: 35.97 KB' /></td>
+<td>&nbsp;</td><td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vv.png" height="25" width="4" alt='Ziyaretçi sayısı: 50.47' title='Ziyaretçi sayısı: 50.47' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="13" width="4" alt='Sayfa: 218.00' title='Sayfa: 218.00' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="22" width="4" alt='Hit: 385.73' title='Hit: 385.73' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="23" width="4" alt='Bayt: 4.26 MB' title='Bayt: 4.26 MB' /></td>
+</tr>
+<tr valign="middle"><td>01<br /><span style="font-size: 9px;">Haz</span></td>
+<td>02<br /><span style="font-size: 9px;">Haz</span></td>
+<td>03<br /><span style="font-size: 9px;">Haz</span></td>
+<td bgcolor="#EAEAEA">04<br /><span style="font-size: 9px;">Haz</span></td>
+<td bgcolor="#EAEAEA">05<br /><span style="font-size: 9px;">Haz</span></td>
+<td>06<br /><span style="font-size: 9px;">Haz</span></td>
+<td>07<br /><span style="font-size: 9px;">Haz</span></td>
+<td>08<br /><span style="font-size: 9px;">Haz</span></td>
+<td>09<br /><span style="font-size: 9px;">Haz</span></td>
+<td>10<br /><span style="font-size: 9px;">Haz</span></td>
+<td bgcolor="#EAEAEA">11<br /><span style="font-size: 9px;">Haz</span></td>
+<td bgcolor="#EAEAEA">12<br /><span style="font-size: 9px;">Haz</span></td>
+<td>13<br /><span style="font-size: 9px;">Haz</span></td>
+<td>14<br /><span style="font-size: 9px;">Haz</span></td>
+<td>15<br /><span style="font-size: 9px;">Haz</span></td>
+<td>16<br /><span style="font-size: 9px;">Haz</span></td>
+<td>17<br /><span style="font-size: 9px;">Haz</span></td>
+<td bgcolor="#EAEAEA">18<br /><span style="font-size: 9px;">Haz</span></td>
+<td bgcolor="#EAEAEA">19<br /><span style="font-size: 9px;">Haz</span></td>
+<td>20<br /><span style="font-size: 9px;">Haz</span></td>
+<td>21<br /><span style="font-size: 9px;">Haz</span></td>
+<td>22<br /><span style="font-size: 9px;">Haz</span></td>
+<td>23<br /><span style="font-size: 9px;">Haz</span></td>
+<td>24<br /><span style="font-size: 9px;">Haz</span></td>
+<td bgcolor="#EAEAEA">25<br /><span style="font-size: 9px;">Haz</span></td>
+<td bgcolor="#EAEAEA">26<br /><span style="font-size: 9px;">Haz</span></td>
+<td>27<br /><span style="font-size: 9px;">Haz</span></td>
+<td>28<br /><span style="font-size: 9px;">Haz</span></td>
+<td>29<br /><span style="font-size: 9px;">Haz</span></td>
+<td><b>30<br /><span style="font-size: 9px;">Haz</span></b></td>
+<td>&nbsp;</td><td valign="middle" onmouseover="ShowTip(18);" onmouseout="HideTip(18);">Average</td>
+</tr>
+</table>
+<br />
+<table>
+<tr><td width="80" bgcolor="#ECECEC">Gün</td><td width="80" bgcolor="#F8E880" onmouseover="ShowTip(1);" onmouseout="HideTip(1);">Ziyaretçi sayısı</td><td width="80" bgcolor="#4477DD" onmouseover="ShowTip(3);" onmouseout="HideTip(3);">Sayfa</td><td width="80" bgcolor="#66F0FF" onmouseover="ShowTip(4);" onmouseout="HideTip(4);">Hit</td><td width="80" bgcolor="#2EA495" onmouseover="ShowTip(5);" onmouseout="HideTip(5);">Bayt</td></tr><tr><td>01 Haz 2016</td><td>62</td><td>339</td><td>691</td><td>8.45 MB</td></tr>
+<tr><td>02 Haz 2016</td><td>54</td><td>139</td><td>374</td><td>5.20 MB</td></tr>
+<tr><td>03 Haz 2016</td><td>50</td><td>344</td><td>416</td><td>3.11 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>04 Haz 2016</td><td>31</td><td>84</td><td>109</td><td>808.59 KB</td></tr>
+<tr bgcolor="#EAEAEA"><td>05 Haz 2016</td><td>41</td><td>81</td><td>81</td><td>589.35 KB</td></tr>
+<tr><td>06 Haz 2016</td><td>57</td><td>123</td><td>268</td><td>3.52 MB</td></tr>
+<tr><td>07 Haz 2016</td><td>49</td><td>130</td><td>426</td><td>5.03 MB</td></tr>
+<tr><td>08 Haz 2016</td><td>33</td><td>193</td><td>629</td><td>7.74 MB</td></tr>
+<tr><td>09 Haz 2016</td><td>50</td><td>206</td><td>371</td><td>3.67 MB</td></tr>
+<tr><td>10 Haz 2016</td><td>45</td><td>151</td><td>489</td><td>7.24 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>11 Haz 2016</td><td>29</td><td>95</td><td>164</td><td>1.99 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>12 Haz 2016</td><td>26</td><td>49</td><td>85</td><td>1016.85 KB</td></tr>
+<tr><td>13 Haz 2016</td><td>25</td><td>287</td><td>421</td><td>3.58 MB</td></tr>
+<tr><td>14 Haz 2016</td><td>58</td><td>309</td><td>519</td><td>5.26 MB</td></tr>
+<tr><td>15 Haz 2016</td><td>50</td><td>135</td><td>472</td><td>7.04 MB</td></tr>
+<tr><td>16 Haz 2016</td><td>83</td><td>672</td><td>799</td><td>5.59 MB</td></tr>
+<tr><td>17 Haz 2016</td><td>74</td><td>563</td><td>760</td><td>6.76 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>18 Haz 2016</td><td>41</td><td>86</td><td>170</td><td>2.04 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>19 Haz 2016</td><td>27</td><td>63</td><td>114</td><td>1.17 MB</td></tr>
+<tr><td>20 Haz 2016</td><td>66</td><td>318</td><td>599</td><td>7.58 MB</td></tr>
+<tr><td>21 Haz 2016</td><td>93</td><td>417</td><td>655</td><td>7.12 MB</td></tr>
+<tr><td>22 Haz 2016</td><td>80</td><td>193</td><td>356</td><td>4.40 MB</td></tr>
+<tr><td>23 Haz 2016</td><td>80</td><td>478</td><td>635</td><td>5.73 MB</td></tr>
+<tr><td>24 Haz 2016</td><td>74</td><td>254</td><td>552</td><td>7.60 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>25 Haz 2016</td><td>38</td><td>147</td><td>204</td><td>1.76 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>26 Haz 2016</td><td>23</td><td>48</td><td>75</td><td>847.31 KB</td></tr>
+<tr><td>27 Haz 2016</td><td>57</td><td>176</td><td>366</td><td>4.67 MB</td></tr>
+<tr><td>28 Haz 2016</td><td>67</td><td>146</td><td>406</td><td>5.48 MB</td></tr>
+<tr><td>29 Haz 2016</td><td>49</td><td>311</td><td>363</td><td>2.74 MB</td></tr>
+<tr><td>30 Haz 2016</td><td>2</td><td>3</td><td>3</td><td>35.97 KB</td></tr>
+<tr bgcolor="#ECECEC"><td>Average</td><td>50.47</td><td>218.00</td><td>385.73</td><td>4.26 MB</td></tr>
+<tr bgcolor="#ECECEC"><td>Total</td><td>1514</td><td>6540</td><td>11572</td><td>127.67 MB</td></tr>
+</table>
+<br /></center>
+</td></tr>
+</table></td></tr></table><br />
+
+<a name="daysofweek">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(18);" onmouseout="HideTip(18);">Days of week </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data daysofweek" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr><td align="center"><center>
+<table>
+<tr valign="bottom">
+<td valign="bottom"><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="19" width="6" alt='Sayfa: 226' title='Sayfa: 226' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="34" width="6" alt='Hit: 413.50' title='Hit: 413.50' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="36" width="6" alt='Bayt: 4.83 MB' title='Bayt: 4.83 MB' /></td>
+<td valign="bottom"><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="21" width="6" alt='Sayfa: 250.50' title='Sayfa: 250.50' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="41" width="6" alt='Hit: 501.50' title='Hit: 501.50' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="42" width="6" alt='Bayt: 5.72 MB' title='Bayt: 5.72 MB' /></td>
+<td valign="bottom"><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="20" width="6" alt='Sayfa: 234.20' title='Sayfa: 234.20' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="41" width="6" alt='Hit: 502.20' title='Hit: 502.20' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="45" width="6" alt='Bayt: 6.07 MB' title='Bayt: 6.07 MB' /></td>
+<td valign="bottom"><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="25" width="6" alt='Sayfa: 299.60' title='Sayfa: 299.60' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="36" width="6" alt='Hit: 436.40' title='Hit: 436.40' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="30" width="6" alt='Bayt: 4.04 MB' title='Bayt: 4.04 MB' /></td>
+<td valign="bottom"><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="27" width="6" alt='Sayfa: 328' title='Sayfa: 328' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="46" width="6" alt='Hit: 554.25' title='Hit: 554.25' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="46" width="6" alt='Bayt: 6.18 MB' title='Bayt: 6.18 MB' /></td>
+<td valign="bottom"><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="9" width="6" alt='Sayfa: 103' title='Sayfa: 103' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="14" width="6" alt='Hit: 161.75' title='Hit: 161.75' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="12" width="6" alt='Bayt: 1.64 MB' title='Bayt: 1.64 MB' /></td>
+<td valign="bottom"><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="5" width="6" alt='Sayfa: 60.25' title='Sayfa: 60.25' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="8" width="6" alt='Hit: 88.75' title='Hit: 88.75' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="7" width="6" alt='Bayt: 913.62 KB' title='Bayt: 913.62 KB' /></td>
+</tr>
+<tr onmouseover="ShowTip(17);" onmouseout="HideTip(17);">
+<td>Mon</td><td>Tue</td><td>Wed</td><td>Thu</td><td>Fri</td><td bgcolor="#EAEAEA">Sat</td><td bgcolor="#EAEAEA">Sun</td></tr>
+</table>
+<br />
+<table>
+<tr><td width="80" bgcolor="#ECECEC">Gün</td><td width="80" bgcolor="#4477DD" onmouseover="ShowTip(3);" onmouseout="HideTip(3);">Sayfa</td><td width="80" bgcolor="#66F0FF" onmouseover="ShowTip(4);" onmouseout="HideTip(4);">Hit</td><td width="80" bgcolor="#2EA495" onmouseover="ShowTip(5);" onmouseout="HideTip(5);">Bayt</td></tr><tr><td>Mon</td><td>226</td><td>413.50</td><td>4.83 MB</td></tr>
+<tr><td>Tue</td><td>250.50</td><td>501.50</td><td>5.72 MB</td></tr>
+<tr><td>Wed</td><td>234.20</td><td>502.20</td><td>6.07 MB</td></tr>
+<tr><td>Thu</td><td>299.60</td><td>436.40</td><td>4.04 MB</td></tr>
+<tr><td>Fri</td><td>328</td><td>554.25</td><td>6.18 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>Sat</td><td>103</td><td>161.75</td><td>1.64 MB</td></tr>
+<tr bgcolor="#EAEAEA"><td>Sun</td><td>60.25</td><td>88.75</td><td>913.62 KB</td></tr>
+</table>
+<br />
+</center></td></tr>
+</table></td></tr></table><br />
+
+<a name="hours">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Ziyaret Saatleri (Sunucu saati) </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data hours" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr><td align="center">
+<center>
+<table>
+<tr valign="bottom">
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="4" width="6" alt='Sayfa: 107' title='Sayfa: 107' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="7" width="6" alt='Hit: 209' title='Hit: 209' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="7" width="6" alt='Bayt: 2.57 MB' title='Bayt: 2.57 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="8" width="6" alt='Sayfa: 219' title='Sayfa: 219' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="17" width="6" alt='Hit: 509' title='Hit: 509' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="15" width="6" alt='Bayt: 5.53 MB' title='Bayt: 5.53 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="12" width="6" alt='Sayfa: 350' title='Sayfa: 350' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="13" width="6" alt='Hit: 381' title='Hit: 381' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="8" width="6" alt='Bayt: 2.80 MB' title='Bayt: 2.80 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="3" width="6" alt='Sayfa: 89' title='Sayfa: 89' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="4" width="6" alt='Hit: 107' title='Hit: 107' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="3" width="6" alt='Bayt: 994.37 KB' title='Bayt: 994.37 KB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="7" width="6" alt='Sayfa: 195' title='Sayfa: 195' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="8" width="6" alt='Hit: 213' title='Hit: 213' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="4" width="6" alt='Bayt: 1.48 MB' title='Bayt: 1.48 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="5" width="6" alt='Sayfa: 129' title='Sayfa: 129' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="11" width="6" alt='Hit: 311' title='Hit: 311' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="9" width="6" alt='Bayt: 3.45 MB' title='Bayt: 3.45 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="9" width="6" alt='Sayfa: 243' title='Sayfa: 243' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="9" width="6" alt='Hit: 269' title='Hit: 269' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="5" width="6" alt='Bayt: 1.67 MB' title='Bayt: 1.67 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="7" width="6" alt='Sayfa: 197' title='Sayfa: 197' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="7" width="6" alt='Hit: 197' title='Hit: 197' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="3" width="6" alt='Bayt: 1002.86 KB' title='Bayt: 1002.86 KB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="5" width="6" alt='Sayfa: 145' title='Sayfa: 145' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="13" width="6" alt='Hit: 387' title='Hit: 387' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="14" width="6" alt='Bayt: 5.31 MB' title='Bayt: 5.31 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="6" width="6" alt='Sayfa: 165' title='Sayfa: 165' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="15" width="6" alt='Hit: 441' title='Hit: 441' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="17" width="6" alt='Bayt: 6.34 MB' title='Bayt: 6.34 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="9" width="6" alt='Sayfa: 245' title='Sayfa: 245' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="21" width="6" alt='Hit: 606' title='Hit: 606' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="19" width="6" alt='Bayt: 7.02 MB' title='Bayt: 7.02 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="11" width="6" alt='Sayfa: 308' title='Sayfa: 308' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="19" width="6" alt='Hit: 561' title='Hit: 561' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="18" width="6" alt='Bayt: 6.57 MB' title='Bayt: 6.57 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="9" width="6" alt='Sayfa: 260' title='Sayfa: 260' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="19" width="6" alt='Hit: 544' title='Hit: 544' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="17" width="6" alt='Bayt: 6.47 MB' title='Bayt: 6.47 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="7" width="6" alt='Sayfa: 190' title='Sayfa: 190' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="19" width="6" alt='Hit: 553' title='Hit: 553' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="21" width="6" alt='Bayt: 8.01 MB' title='Bayt: 8.01 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="7" width="6" alt='Sayfa: 201' title='Sayfa: 201' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="20" width="6" alt='Hit: 588' title='Hit: 588' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="22" width="6" alt='Bayt: 8.46 MB' title='Bayt: 8.46 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="21" width="6" alt='Sayfa: 609' title='Sayfa: 609' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="46" width="6" alt='Hit: 1350' title='Hit: 1350' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="46" width="6" alt='Bayt: 17.32 MB' title='Bayt: 17.32 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="16" width="6" alt='Sayfa: 477' title='Sayfa: 477' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="34" width="6" alt='Hit: 1008' title='Hit: 1008' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="31" width="6" alt='Bayt: 11.59 MB' title='Bayt: 11.59 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="17" width="6" alt='Sayfa: 485' title='Sayfa: 485' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="32" width="6" alt='Hit: 958' title='Hit: 958' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="29" width="6" alt='Bayt: 10.89 MB' title='Bayt: 10.89 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="6" width="6" alt='Sayfa: 167' title='Sayfa: 167' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="9" width="6" alt='Hit: 243' title='Hit: 243' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="7" width="6" alt='Bayt: 2.65 MB' title='Bayt: 2.65 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="14" width="6" alt='Sayfa: 395' title='Sayfa: 395' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="18" width="6" alt='Hit: 516' title='Hit: 516' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="13" width="6" alt='Bayt: 4.79 MB' title='Bayt: 4.79 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="31" width="6" alt='Sayfa: 910' title='Sayfa: 910' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="31" width="6" alt='Hit: 923' title='Hit: 923' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="13" width="6" alt='Bayt: 4.86 MB' title='Bayt: 4.86 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="8" width="6" alt='Sayfa: 219' title='Sayfa: 219' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="11" width="6" alt='Hit: 327' title='Hit: 327' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="9" width="6" alt='Bayt: 3.39 MB' title='Bayt: 3.39 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="5" width="6" alt='Sayfa: 133' title='Sayfa: 133' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="8" width="6" alt='Hit: 216' title='Hit: 216' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="7" width="6" alt='Bayt: 2.47 MB' title='Bayt: 2.47 MB' /></td>
+<td><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vp.png" height="4" width="6" alt='Sayfa: 102' title='Sayfa: 102' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vh.png" height="6" width="6" alt='Hit: 155' title='Hit: 155' /><img align="bottom" src="http://sys.sadecehosting.com/awstats-6.0//other/vk.png" height="6" width="6" alt='Bayt: 2.08 MB' title='Bayt: 2.08 MB' /></td>
+</tr>
+<tr onmouseover="ShowTip(17);" onmouseout="HideTip(17);"><th width="19">0</th>
+<th width="19">1</th>
+<th width="19">2</th>
+<th width="19">3</th>
+<th width="19">4</th>
+<th width="19">5</th>
+<th width="19">6</th>
+<th width="19">7</th>
+<th width="19">8</th>
+<th width="19">9</th>
+<th width="19">10</th>
+<th width="19">11</th>
+<th width="19">12</th>
+<th width="19">13</th>
+<th width="19">14</th>
+<th width="19">15</th>
+<th width="19">16</th>
+<th width="19">17</th>
+<th width="19">18</th>
+<th width="19">19</th>
+<th width="19">20</th>
+<th width="19">21</th>
+<th width="19">22</th>
+<th width="19">23</th>
+</tr>
+<tr onmouseover="ShowTip(17);" onmouseout="HideTip(17);">
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr1.png" width="10" alt="0:00 - 1:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr2.png" width="10" alt="1:00 - 2:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr3.png" width="10" alt="2:00 - 3:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr4.png" width="10" alt="3:00 - 4:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr5.png" width="10" alt="4:00 - 5:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr6.png" width="10" alt="5:00 - 6:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr7.png" width="10" alt="6:00 - 7:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr8.png" width="10" alt="7:00 - 8:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr9.png" width="10" alt="8:00 - 9:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr10.png" width="10" alt="9:00 - 10:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr11.png" width="10" alt="10:00 - 11:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr12.png" width="10" alt="11:00 - 12:00 am" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr1.png" width="10" alt="0:00 - 1:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr2.png" width="10" alt="1:00 - 2:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr3.png" width="10" alt="2:00 - 3:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr4.png" width="10" alt="3:00 - 4:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr5.png" width="10" alt="4:00 - 5:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr6.png" width="10" alt="5:00 - 6:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr7.png" width="10" alt="6:00 - 7:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr8.png" width="10" alt="7:00 - 8:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr9.png" width="10" alt="8:00 - 9:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr10.png" width="10" alt="9:00 - 10:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr11.png" width="10" alt="10:00 - 11:00 pm" /></td>
+<td><img src="http://sys.sadecehosting.com/awstats-6.0//clock/hr12.png" width="10" alt="11:00 - 12:00 pm" /></td>
+</tr>
+</table>
+<br />
+<table width="650"><tr>
+<td align="center"><center>
+<table>
+<tr><td width="80" bgcolor="#ECECEC">Ziyaret Saatleri (Sunucu saati)</td><td width="80" bgcolor="#4477DD" onmouseover="ShowTip(3);" onmouseout="HideTip(3);">Sayfa</td><td width="80" bgcolor="#66F0FF" onmouseover="ShowTip(4);" onmouseout="HideTip(4);">Hit</td><td width="80" bgcolor="#2EA495" onmouseover="ShowTip(5);" onmouseout="HideTip(5);">Bayt</td></tr><tr><td>00</td><td>107</td><td>209</td><td>2.57 MB</td></tr>
+<tr><td>01</td><td>219</td><td>509</td><td>5.53 MB</td></tr>
+<tr><td>02</td><td>350</td><td>381</td><td>2.80 MB</td></tr>
+<tr><td>03</td><td>89</td><td>107</td><td>994.37 KB</td></tr>
+<tr><td>04</td><td>195</td><td>213</td><td>1.48 MB</td></tr>
+<tr><td>05</td><td>129</td><td>311</td><td>3.45 MB</td></tr>
+<tr><td>06</td><td>243</td><td>269</td><td>1.67 MB</td></tr>
+<tr><td>07</td><td>197</td><td>197</td><td>1002.86 KB</td></tr>
+<tr><td>08</td><td>145</td><td>387</td><td>5.31 MB</td></tr>
+<tr><td>09</td><td>165</td><td>441</td><td>6.34 MB</td></tr>
+<tr><td>10</td><td>245</td><td>606</td><td>7.02 MB</td></tr>
+<tr><td>11</td><td>308</td><td>561</td><td>6.57 MB</td></tr>
+</table>
+</center></td><td width="10">&nbsp;</td><td align="center"><center>
+<table>
+<tr><td width="80" bgcolor="#ECECEC">Ziyaret Saatleri (Sunucu saati)</td><td width="80" bgcolor="#4477DD" onmouseover="ShowTip(3);" onmouseout="HideTip(3);">Sayfa</td><td width="80" bgcolor="#66F0FF" onmouseover="ShowTip(4);" onmouseout="HideTip(4);">Hit</td><td width="80" bgcolor="#2EA495" onmouseover="ShowTip(5);" onmouseout="HideTip(5);">Bayt</td></tr>
+<tr><td>12</td><td>260</td><td>544</td><td>6.47 MB</td></tr>
+<tr><td>13</td><td>190</td><td>553</td><td>8.01 MB</td></tr>
+<tr><td>14</td><td>201</td><td>588</td><td>8.46 MB</td></tr>
+<tr><td>15</td><td>609</td><td>1350</td><td>17.32 MB</td></tr>
+<tr><td>16</td><td>477</td><td>1008</td><td>11.59 MB</td></tr>
+<tr><td>17</td><td>485</td><td>958</td><td>10.89 MB</td></tr>
+<tr><td>18</td><td>167</td><td>243</td><td>2.65 MB</td></tr>
+<tr><td>19</td><td>395</td><td>516</td><td>4.79 MB</td></tr>
+<tr><td>20</td><td>910</td><td>923</td><td>4.86 MB</td></tr>
+<tr><td>21</td><td>219</td><td>327</td><td>3.39 MB</td></tr>
+<tr><td>22</td><td>133</td><td>216</td><td>2.47 MB</td></tr>
+<tr><td>23</td><td>102</td><td>155</td><td>2.08 MB</td></tr>
+</table>
+</center></td></tr></table>
+<br />
+</center></td></tr>
+</table></td></tr></table><br />
+
+
+<a name="who">&nbsp;</a>
+
+<a name="countries">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Ziyaretçilerin alan adları/ülkeleri (En sık kullanılan 10) &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.alldomains.html" target="awstatsbis">Tüm liste</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data countries" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th width="32">&nbsp;</th><th colspan="2">Alan Adları/Ülkeler</th><th bgcolor="#4477DD" width="80">Sayfa</th><th bgcolor="#66F0FF" width="80">Hit</th><th bgcolor="#2EA495" width="80">Bayt</th><th>&nbsp;</th></tr>
+<tr><td width="32"><img src="http://sys.sadecehosting.com/awstats-6.0//flags/ip.png" height="14" alt='Bilinmeyen' title='Bilinmeyen' /></td><td class="aws">Bilinmeyen</td><td>ip</td><td>6540</td><td>11572</td><td>127.67 MB</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="147" height="5" alt='' title='' /><br />
+<img src="http://sys.sadecehosting.com/awstats-6.0//other/hh.png" width="261" height="5" alt='' title='' /><br />
+<img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="261" height="5" alt='' title='' /></td></tr>
+</table></td></tr></table><br />
+
+<a name="visitors">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Hosts (En sık kullanılan 10) &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.allhosts.html" target="awstatsbis">Tüm liste</a> &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.lasthosts.html" target="awstatsbis">Son ziyaret</a> &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.unknownip.html" target="awstatsbis">Çözülemeyen IP Adresleri</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data visitors" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>Hosts : 0 Known, 884 Bilinmeyen (çözülemeyen ip) - 859 Ayrı Ziyaretçi</th><th bgcolor="#4477DD" width="80">Sayfa</th><th bgcolor="#66F0FF" width="80">Hit</th><th bgcolor="#2EA495" width="80">Bayt</th><th width="120">Son ziyaret</th></tr>
+<tr><td class="aws">172.82.137.77</td><td>1120</td><td>1120</td><td>4.85 MB</td><td>23 Haz 2016 - 15:14</td></tr>
+<tr><td class="aws">187.95.127.187</td><td>370</td><td>370</td><td>1.60 MB</td><td>21 Haz 2016 - 19:46</td></tr>
+<tr><td class="aws">192.111.153.243</td><td>254</td><td>254</td><td>1.10 MB</td><td>03 Haz 2016 - 02:01</td></tr>
+<tr><td class="aws">188.163.107.170</td><td>217</td><td>217</td><td>931.64 KB</td><td>29 Haz 2016 - 21:56</td></tr>
+<tr><td class="aws">212.7.217.50</td><td>190</td><td>190</td><td>822.81 KB</td><td>26 Haz 2016 - 10:25</td></tr>
+<tr><td class="aws">133.130.124.174</td><td>158</td><td>158</td><td>691.46 KB</td><td>16 Haz 2016 - 06:53</td></tr>
+<tr><td class="aws">38.132.117.104</td><td>156</td><td>158</td><td>432.56 KB</td><td>14 Haz 2016 - 17:36</td></tr>
+<tr><td class="aws">138.36.34.27</td><td>145</td><td>145</td><td>643.50 KB</td><td>01 Haz 2016 - 07:06</td></tr>
+<tr><td class="aws">134.249.141.24</td><td>126</td><td>126</td><td>545.16 KB</td><td>17 Haz 2016 - 15:05</td></tr>
+<tr><td class="aws">46.165.210.13</td><td>99</td><td>99</td><td>424.62 KB</td><td>23 Haz 2016 - 07:04</td></tr>
+<tr><td class="aws"><span style="color: #666688">Diğerleri</span></td><td>3705</td><td>8735</td><td>115.73 MB</td><td>&nbsp;</td></tr>
+</table></td></tr></table><br />
+
+<a name="robots">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Robot/Örümcek ziyaretleri (En sık kullanılan 10) &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.allrobots.html" target="awstatsbis">Tüm liste</a> &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.lastrobots.html" target="awstatsbis">Son ziyaret</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data robots" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC" onmouseover="ShowTip(16);" onmouseout="HideTip(16);"><th>11 Ziyaret eden robotlar*</th><th bgcolor="#66F0FF" width="80">Hit</th><th bgcolor="#2EA495" width="80">Bayt</th><th width="120">Son ziyaret</th></tr>
+<tr><td class="aws">Unknown robot (identified by hit on 'robots.txt')</td><td>0+279</td><td>82.83 KB</td><td>29 Haz 2016 - 22:18</td></tr>
+<tr><td class="aws">Yandex bot</td><td>203+62</td><td>3.16 MB</td><td>29 Haz 2016 - 13:03</td></tr>
+<tr><td class="aws">Googlebot (Google)</td><td>197+46</td><td>2.15 MB</td><td>29 Haz 2016 - 20:51</td></tr>
+<tr><td class="aws">Unknown robot (identified by 'robot')</td><td>53+19</td><td>1.00 MB</td><td>29 Haz 2016 - 17:49</td></tr>
+<tr><td class="aws">BaiDuSpider</td><td>43+4</td><td>541.28 KB</td><td>29 Haz 2016 - 13:43</td></tr>
+<tr><td class="aws">Unknown robot (identified by 'spider')</td><td>19+19</td><td>240.54 KB</td><td>27 Haz 2016 - 00:32</td></tr>
+<tr><td class="aws">Inktomi Slurp</td><td>14+8</td><td>180.61 KB</td><td>24 Haz 2016 - 00:32</td></tr>
+<tr><td class="aws">Unknown robot (identified by 'crawl')</td><td>6+4</td><td>51.18 KB</td><td>28 Haz 2016 - 15:26</td></tr>
+<tr><td class="aws">SurveyBot</td><td>2+2</td><td>25.32 KB</td><td>23 Haz 2016 - 17:27</td></tr>
+<tr><td class="aws">CMC/0.01</td><td>4</td><td>82.83 KB</td><td>21 Haz 2016 - 18:54</td></tr>
+<tr><td class="aws"><span style="color: #666688">Diğerleri</span></td><td>1</td><td>12.37 KB</td><td>&nbsp;</td></tr>
+</table></td></tr></table><span style="font: 11px verdana, arial, helvetica;">* Robots shown here gave hits or traffic "not viewed" by visitors, so they are not included in other charts. Numbers after + are successful hits on "robots.txt" files</span><br />
+<br />
+
+
+<a name="how">&nbsp;</a>
+
+<a name="sessions">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Visits duration </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data sessions" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC" onmouseover="ShowTip(1);" onmouseout="HideTip(1);"><th>Ziyaretçi sayısı: 1514 - Average: 70 s</th><th bgcolor="#8888DD" width="80">Ziyaretçi sayısı</th><th bgcolor="#8888DD" width="80">Yüzde</th></tr>
+<tr><td class="aws">0s-30s</td><td>1402</td><td>92.6 %</td></tr>
+<tr><td class="aws">30s-2mn</td><td>53</td><td>3.5 %</td></tr>
+<tr><td class="aws">2mn-5mn</td><td>13</td><td>0.8 %</td></tr>
+<tr><td class="aws">5mn-15mn</td><td>12</td><td>0.7 %</td></tr>
+<tr><td class="aws">15mn-30mn</td><td>14</td><td>0.9 %</td></tr>
+<tr><td class="aws">30mn-1h</td><td>13</td><td>0.8 %</td></tr>
+<tr><td class="aws">1h+</td><td>5</td><td>0.3 %</td></tr>
+<tr onmouseover="ShowTip(20);" onmouseout="HideTip(20);"><td class="aws"><span style="color: #666688">Bilinmeyen</span></td><td>2</td><td>0.1 %</td></tr>
+</table></td></tr></table><br />
+
+<a name="filetypes">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Günlük istatistikler </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data filetypes" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th colspan="3">Günlük istatistikler</th><th bgcolor="#66F0FF" width="80">Hit</th><th bgcolor="#66F0FF" width="80">Yüzde</th><th bgcolor="#2EA495" width="80">Bayt</th><th bgcolor="#2EA495" width="80">Yüzde</th></tr>
+<tr><td width="32"><img src="http://sys.sadecehosting.com/awstats-6.0//mime/script.png" alt='' title='' /></td><td class="aws">php</td><td class="aws">Dynamic Html page or Script file</td><td>4800</td><td>41.4 %</td><td>36.94 MB</td><td>28.9 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//mime/other.png" alt='' title='' /></td><td class="aws">css</td><td class="aws">Cascading Style Sheet file</td><td>2051</td><td>17.7 %</td><td>16.94 MB</td><td>13.2 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//mime/html.png" alt='' title='' /></td><td class="aws">html</td><td class="aws">HTML or XML static page</td><td>1738</td><td>15 %</td><td>9.32 MB</td><td>7.3 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//mime/other.png" alt='' title='' /></td><td class="aws">js</td><td class="aws">Javascript file</td><td>1367</td><td>11.8 %</td><td>25.21 MB</td><td>19.7 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//mime/image.png" alt='' title='' /></td><td class="aws">png</td><td class="aws">Image</td><td>967</td><td>8.3 %</td><td>2.72 MB</td><td>2.1 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//mime/image.png" alt='' title='' /></td><td class="aws">jpeg</td><td class="aws">Image</td><td>374</td><td>3.2 %</td><td>26.65 MB</td><td>20.8 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//mime/image.png" alt='' title='' /></td><td class="aws">jpg</td><td class="aws">Image</td><td>273</td><td>2.3 %</td><td>9.86 MB</td><td>7.7 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//mime/unknown.png" alt='' title='' /></td><td class="aws" colspan="2"><span style="color: #666688">Bilinmeyen</span></td><td>2</td><td>0 %</td><td>24.77 KB</td><td>0 %</td></tr>
+</table></td></tr></table><br />
+
+<a name="urls">&nbsp;</a><a name="entry">&nbsp;</a><a name="exit">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Sayfalar-URL (En sık kullanılan 10) &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.urldetail.html" target="awstatsbis">Tüm liste</a> &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.urlentry.html" target="awstatsbis">Entry pages</a> &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.urlexit.html" target="awstatsbis">Exit</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data urls" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>16 farklı sayfalar</th><th bgcolor="#4477DD" width="80">Erişim</th><th bgcolor="#2EA495" width="80">Average size</th><th bgcolor="#CEC2E8" width="80">Entry pages</th><th bgcolor="#C1B2E2" width="80">Exit</th><th>&nbsp;</th></tr>
+<tr><td class="aws"><a href="http://www.bilgegumruk.com/administrator/index.php" target="url">/administrator/index.php</a></td><td>3321</td><td>4.39 KB</td><td>248</td><td>357</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="261" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="68" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/he.png" width="20" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hx.png" width="28" height="4" alt='' title='' /></td></tr>
+<tr><td class="aws"><a href="http://www.bilgegumruk.com/index.php" target="url">/index.php</a></td><td>1465</td><td>15.86 KB</td><td>528</td><td>585</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="115" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="244" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/he.png" width="42" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hx.png" width="46" height="4" alt='' title='' /></td></tr>
+<tr><td class="aws"><a href="http://www.bilgegumruk.com/error404.html" target="url">/error404.html</a></td><td>713</td><td>315 Bytes</td><td>59</td><td>160</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="56" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="5" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/he.png" width="5" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hx.png" width="13" height="4" alt='' title='' /></td></tr>
+<tr><td class="aws"><a href="http://www.bilgegumruk.com/" target="url">/</a></td><td>671</td><td>11.82 KB</td><td>537</td><td>351</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="53" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="182" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/he.png" width="43" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hx.png" width="28" height="4" alt='' title='' /></td></tr>
+<tr><td class="aws"><a href="http://www.bilgegumruk.com/templates/gk_blackandwhite/fonts/" target="url">/templates/gk_blackandwhite/fonts/</a></td><td>193</td><td>43 Bytes</td><td>14</td><td>24</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="16" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="2" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/he.png" width="2" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hx.png" width="2" height="4" alt='' title='' /></td></tr>
+<tr><td class="aws"><a href="http://www.bilgegumruk.com/administrator/" target="url">/administrator/</a></td><td>103</td><td>4.22 KB</td><td>100</td><td>5</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="9" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="65" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/he.png" width="8" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hx.png" width="2" height="4" alt='' title='' /></td></tr>
+<tr><td class="aws"><a href="http://www.bilgegumruk.com/insankaynaklari/" target="url">/insankaynaklari/</a></td><td>52</td><td>16.97 KB</td><td>14</td><td>15</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="5" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="261" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/he.png" width="2" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hx.png" width="2" height="4" alt='' title='' /></td></tr>
+<tr><td class="aws"><a href="http://www.bilgegumruk.com/insankaynaklari/gonderildi.php" target="url">/insankaynaklari/gonderildi.php</a></td><td>6</td><td>615 Bytes</td><td>&nbsp;</td><td>2</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="2" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="10" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/he.png" width="1" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hx.png" width="2" height="4" alt='' title='' /></td></tr>
+<tr><td class="aws"><a href="http://www.bilgegumruk.com//plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/upload.php" target="url">//plugins/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/...</a></td><td>5</td><td>17 Bytes</td><td>5</td><td>5</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="2" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="2" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/he.png" width="2" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hx.png" width="2" height="4" alt='' title='' /></td></tr>
+<tr><td class="aws"><a href="http://www.bilgegumruk.com//" target="url">//</a></td><td>4</td><td>13.63 KB</td><td>4</td><td>4</td><td style="text-align:left; font-size:4px;"><img src="http://sys.sadecehosting.com/awstats-6.0//other/hp.png" width="2" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hk.png" width="209" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/he.png" width="2" height="4" alt='' title='' /><br /><img src="http://sys.sadecehosting.com/awstats-6.0//other/hx.png" width="2" height="4" alt='' title='' /></td></tr>
+<tr><td class="aws"><span style="color: #666688">Diğerleri</span></td><td>7</td><td>5.90 KB</td><td>5</td><td>4</td><td>&nbsp;</td></tr>
+</table></td></tr></table><br />
+
+<a name="os">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">İşletim Sistemleri (En sık kullanılan 10) &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.osdetail.html" target="awstatsbis">Tüm liste/Sürümler</a> &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.unknownos.html" target="awstatsbis">Bilinmeyen</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data os" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th width="32">&nbsp;</th><th>İşletim Sistemleri</th><th bgcolor="#66F0FF" width="80">Hit</th><th bgcolor="#66F0FF" width="80">Yüzde</th></tr>
+<tr><td width="32"><img src="http://sys.sadecehosting.com/awstats-6.0//os/win.png" alt='' title='' /></td><td class="aws"><b>Windows</b></td><td>8552</td><td>73.9 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//os/unknown.png" alt='' title='' /></td><td class="aws"><span style="color: #666688">Bilinmeyen</span></td><td>2123</td><td>18.3 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//os/mac.png" alt='' title='' /></td><td class="aws"><b>Macintosh</b></td><td>458</td><td>3.9 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//os/linux.png" alt='' title='' /></td><td class="aws">Linux</td><td>432</td><td>3.7 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//os/unix.png" alt='' title='' /></td><td class="aws">Unknown Unix system</td><td>5</td><td>0 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//os/freebsd.png" alt='' title='' /></td><td class="aws">FreeBSD</td><td>2</td><td>0 %</td></tr>
+</table></td></tr></table><br />
+
+<a name="browsers">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Tarayıcılar (En sık kullanılan 10) &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.browserdetail.html" target="awstatsbis">Tüm liste/Sürümler</a> &nbsp; - &nbsp; <a href="awstats.www.bilgegumruk.com.unknownbrowser.html" target="awstatsbis">Bilinmeyen</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data browsers" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th width="32">&nbsp;</th><th>Tarayıcılar</th><th width="80">Grabber</th><th bgcolor="#66F0FF" width="80">Hit</th><th bgcolor="#66F0FF" width="80">Yüzde</th></tr>
+<tr><td width="32"><img src="http://sys.sadecehosting.com/awstats-6.0//browser/safari.png" alt='' title='' /></td><td class="aws">Safari</td><td>No</td><td>5602</td><td>48.4 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//browser/mozilla.png" alt='' title='' /></td><td class="aws">Mozilla</td><td>No</td><td>3624</td><td>31.3 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//browser/unknown.png" alt='' title='' /></td><td class="aws"><span style="color: #666688">Bilinmeyen</span></td><td width="80">?</td><td>1506</td><td>13 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//browser/msie.png" alt='' title='' /></td><td class="aws"><b>MS Internet Explorer</b></td><td>No</td><td>677</td><td>5.8 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//browser/opera.png" alt='' title='' /></td><td class="aws">Opera</td><td>No</td><td>158</td><td>1.3 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//browser/notavailable.png" alt='' title='' /></td><td class="aws">Wget</td><td><b>Yes</b></td><td>2</td><td>0 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//browser/lynx.png" alt='' title='' /></td><td class="aws">Lynx</td><td>No</td><td>2</td><td>0 %</td></tr>
+<tr><td><img src="http://sys.sadecehosting.com/awstats-6.0//browser/netscape.png" alt='' title='' /></td><td class="aws"><b>Netscape</b></td><td>No</td><td>1</td><td>0 %</td></tr>
+</table></td></tr></table><br />
+
+
+<a name="refering">&nbsp;</a>
+
+<a name="referer">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Siteye bağlantı yapanlar </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data referer" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>Köken</th><th bgcolor="#4477DD" width="80">Sayfa</th><th bgcolor="#4477DD" width="80">Yüzde</th><th bgcolor="#66F0FF" width="80">Hit</th><th bgcolor="#66F0FF" width="80">Yüzde</th></tr>
+<tr><td class="aws"><b>Doğrudan adres / Yer imi</b></td><td>4741</td><td>72.4 %</td><td>4933</td><td>42.6 %</td></tr>
+<tr><td class="aws"><b>Links from a NewsGroup</b></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr onmouseover="ShowTip(13);" onmouseout="HideTip(13);"><td class="aws"><b>İnternet arama motorundan bağlantı</b> - <a href="awstats.www.bilgegumruk.com.refererse.html" target="awstatsbis">Tüm liste</a><br />
+<table>
+<tr><td class="aws">- Google</td><td>197</td><td>197</td></tr>
+<tr><td class="aws">- Yandex</td><td>17</td><td>17</td></tr>
+</table></td>
+<td valign="top">214</td><td valign="top">3.2 %</td><td valign="top">214</td><td valign="top">1.8 %</td></tr>
+<tr onmouseover="ShowTip(14);" onmouseout="HideTip(14);"><td class="aws"><b>Dış sayfalardan bağlantılar (arama motorları hariç diğer veb siteleri)</b> - <a href="awstats.www.bilgegumruk.com.refererpages.html" target="awstatsbis">Tüm liste</a><br />
+<table>
+<tr><td class="aws">- <a href="http://bilgegumruk.com/administrator/index.php" target="url">http://bilgegumruk.com/administrator/index.php</a></td><td>570</td><td>570</td></tr>
+<tr><td class="aws">- <a href="http://bilgegumruk.com" target="url">http://bilgegumruk.com</a></td><td>143</td><td>382</td></tr>
+<tr><td class="aws">- <a href="http://bilgegumruk.com/index.php" target="url">http://bilgegumruk.com/index.php</a></td><td>27</td><td>293</td></tr>
+<tr><td class="aws">- <a href="https://www.bing.com" target="url">https://www.bing.com</a></td><td>3</td><td>3</td></tr>
+<tr><td class="aws">- <a href="http://bilgegumruk.com/cache/cache-db.php" target="url">http://bilgegumruk.com/cache/cache-db.php</a></td><td>2</td><td>2</td></tr>
+<tr><td class="aws">- <a href="http://yandex.com.tr/clck/jsredir" target="url">http://yandex.com.tr/clck/jsredir</a></td><td>2</td><td>2</td></tr>
+<tr><td class="aws">- <a href="http://www.bing.com/search" target="url">http://www.bing.com/search</a></td><td>2</td><td>2</td></tr>
+<tr><td class="aws">- <a href="http://bilgegumruk.com/administrator/" target="url">http://bilgegumruk.com/administrator/</a></td><td>2</td><td>2</td></tr>
+<tr><td class="aws">- <a href="http://bilgegumruk.com/templates/gk_blackandwhite/css/style1.css" target="url">http://bilgegumruk.com/templates/gk_blackandwhite/css/style1.css</a></td><td>2</td><td>14</td></tr>
+<tr><td class="aws">- <a href="http://bilgegumruk.com/administrator/components/com_garyscookbook/garyscookbook.xml" target="url">http://bilgegumruk.com/administrator/components/com_garyscookboo...</a></td><td>1</td><td>1</td></tr>
+<tr><td class="aws"><span style="color: #666688">- Diğerleri</span></td><td>17</td><td>37</td></tr>
+</table></td>
+<td valign="top">771</td><td valign="top">11.7 %</td><td valign="top">1308</td><td valign="top">11.3 %</td></tr>
+<tr><td class="aws"><b>İçten sayfalar (aynı sitede bulunan başka sayfalardan bağlantılar)</b></td><td>810</td><td>12.3 %</td><td>5113</td><td>44.1 %</td></tr>
+<tr><td class="aws"><b>Kökeni bilinmeyen</b></td><td>4</td><td>0 %</td><td>4</td><td>0 %</td></tr>
+</table></td></tr></table><br />
+
+
+<a name="keys">&nbsp;</a>
+
+<a name="keyphrases">&nbsp;</a><a name="keywords">&nbsp;</a><br />
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td width="50%" valign="top">
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="95%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Search&nbsp;Keyphrases (En sık kullanılan 10)<br /><a href="awstats.www.bilgegumruk.com.keyphrases.html" target="awstatsbis">Tüm liste</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data keyphrases" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC" onmouseover="ShowTip(15);" onmouseout="HideTip(15);"><th>2 different keyphrases</th><th bgcolor="#8888DD" width="80">Arama</th><th bgcolor="#8888DD" width="80">Yüzde</th></tr>
+<tr><td class="aws">sevket onur ozkan</td><td>1</td><td>50 %</td></tr>
+<tr><td class="aws">www.bilgegumruk.com</td><td>1</td><td>50 %</td></tr>
+</table></td></tr></table><br />
+
+</td>
+<td> &nbsp; </td><td width="50%" valign="top">
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="95%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Search&nbsp;Keywords (En sık kullanılan 10)<br /><a href="awstats.www.bilgegumruk.com.keywords.html" target="awstatsbis">Tüm liste</a> </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data keywords" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC" onmouseover="ShowTip(15);" onmouseout="HideTip(15);"><th>4 Anahtar Sözcük</th><th bgcolor="#8888DD" width="80">Arama</th><th bgcolor="#8888DD" width="80">Yüzde</th></tr>
+<tr><td class="aws">onur</td><td>1</td><td>25 %</td></tr>
+<tr><td class="aws">sevket</td><td>1</td><td>25 %</td></tr>
+<tr><td class="aws">www.bilgegumruk.com</td><td>1</td><td>25 %</td></tr>
+<tr><td class="aws">ozkan</td><td>1</td><td>25 %</td></tr>
+</table></td></tr></table><br />
+
+</td>
+</tr></table>
+
+<a name="other">&nbsp;</a>
+
+<a name="misc">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">Miscellaneous </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data misc" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>Miscellaneous</th><th width="100">&nbsp;</th><th width="100">&nbsp;</th></tr>
+<tr><td class="aws">Add to favorites (estimated)</td><td>137 / 859 Ziyaretçiler</td><td>15.9 %</td></tr>
+<tr><td class="aws">Browsers with Java support</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Browsers with Macromedia Director Support</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Browsers with Flash Support</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Browsers with Real audio playing support</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Browsers with Quictime audio playing support</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Browsers with Windows Media audio playing support</td><td>-</td><td>&nbsp;</td></tr>
+<tr><td class="aws">Browsers with PDF support</td><td>-</td><td>&nbsp;</td></tr>
+</table></td></tr></table><br />
+
+<a name="errors">&nbsp;</a><br />
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%" onmouseover="ShowTip(19);" onmouseout="HideTip(19);">HTTP Hata kodları </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data errors" border="2" bordercolor="#ECECEC" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th colspan="2">HTTP Hata kodları*</th><th bgcolor="#66F0FF" width="80">Hit</th><th bgcolor="#66F0FF" width="80">Yüzde</th><th bgcolor="#2EA495" width="80">Bayt</th></tr>
+<tr onmouseover="ShowTip(302);" onmouseout="HideTip(302);"><td valign="top">302</td><td class="aws">Moved temporarily (redirect)</td><td>904</td><td>70.8 %</td><td>196.45 KB</td></tr>
+<tr onmouseover="ShowTip(301);" onmouseout="HideTip(301);"><td valign="top">301</td><td class="aws">Moved permanently (redirect)</td><td>264</td><td>20.6 %</td><td>1.73 KB</td></tr>
+<tr onmouseover="ShowTip(404);" onmouseout="HideTip(404);"><td><a href="awstats.www.bilgegumruk.com.errors404.html" target="awstatsbis">404</a></td><td class="aws">Document Not Found</td><td>75</td><td>5.8 %</td><td>143.33 KB</td></tr>
+<tr onmouseover="ShowTip(400);" onmouseout="HideTip(400);"><td valign="top">400</td><td class="aws">Bad Request</td><td>21</td><td>1.6 %</td><td>4.63 KB</td></tr>
+<tr onmouseover="ShowTip(206);" onmouseout="HideTip(206);"><td valign="top">206</td><td class="aws">Partial Content</td><td>12</td><td>0.9 %</td><td>233.69 KB</td></tr>
+</table></td></tr></table><span style="font: 11px verdana, arial, helvetica;">* Codes shown here gave hits or traffic "not viewed" by visitors, so they are not included in other charts.</span><br />
+<br />
+
+<br /><br />
+<span dir="ltr" style="font: 11px verdana, arial, helvetica; color: #000000;"><b>Advanced Web Statistics 6.0 (build 1.704)</b> - <a href="http://awstats.sourceforge.net" target="awstatshome">Created by awstats (with plugin tooltips)</a></span><br />
+
+<br />
+</body>
+</html>

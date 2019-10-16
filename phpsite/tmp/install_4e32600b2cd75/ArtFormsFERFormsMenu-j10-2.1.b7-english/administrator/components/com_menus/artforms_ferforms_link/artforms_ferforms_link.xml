@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="menu" version="1.0.0">
+	<name>Link - ArtForms Recived Forms in FrontEnd</name>
+	<group>Links</group>
+	<author>InterJoomla</author>
+	<creationDate>17/12/2007</creationDate>
+	<copyright>(C) 2007 InterJoomla. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>interjoomla@gmail.com</authorEmail>
+	<authorUrl>http://jartforms.interjoomla.com.ar/</authorUrl>
+	<version>2.1b7</version>
+	<description>Make a link of recived forms of ArtForms in FrontEnd</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Menu Image" description="A little imagen will be showed into left or right place o menu article, images must be into folder images/stories/" />
+        <param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="unique_itemid" type="radio" default="0" label="Unique ID" description="Use article's Id for this link">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</mosinstall>

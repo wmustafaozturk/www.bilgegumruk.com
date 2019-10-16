@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Face Like Button Module</name>
+	<author>Cico Zeljko</author>
+	<creationDate>May 2010</creationDate>
+	<copyright>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</copyright>
+	<authorEmail>add@artcentar.org</authorEmail>
+	<authorUrl>www.artcreative.me</authorUrl>
+	<version>1.2.1.0</version>
+	<description>DESCART</description>
+	<files>
+		<filename>mod_facelike.xml</filename>
+		<filename module="mod_facelike">mod_facelike.php</filename>
+		<filename>index.html</filename>
+	</files>
+    <languages folder="languages">
+		<language tag="en-GB">en-GB.mod_facelike.ini</language>
+	</languages>
+	<params>
+        <param name="@spacer" type="spacer" default="DESCLIKE" label="" description="" />
+
+		<param name="adresa" type="text" default="" label="Adress to like" description="Enter the address without http: / / tags" />
+        <param name="auto_url" type="radio" default="0" label="Auto Url" description="If you turn on auto url , there is no need to insert adress in Adress to like field">
+		<option value="0">yes</option>
+		<option value="1">no</option>
+		</param>
+        <param name="like_width" type="text" default="450" label="Width" description="Enter custom width" />
+        <param name="like_height" type="text" default="75" label="Height" description="Enter custom height" />
+
+
+        <param name="locale_lang" type="list" default="54" label="Set locale language." description="Set your language">
+		<option value="0">Catalan</option>
+		<option value="1">Czech</option>
+		<option value="2">Welsh</option>
+		<option value="3">Danish</option>
+		<option value="4">German</option>
+		<option value="5">Basque</option>
+		<option value="6">English (Pirate)</option>
+		<option value="7">English (Upside Down)</option>
+		<option value="8">Cherokee</option>
+		<option value="9">English (US)</option>
+		<option value="10">Spanish</option>
+		<option value="11">Spanish (Chile)</option>
+		<option value="12">Spanish (Colombia)</option>
+		<option value="13">Spanish (Spain)</option>
+		<option value="14">Spanish (Mexico)</option>
+		<option value="15">Spanish (Venezuela)</option>
+		<option value="18">Finnish (test)</option>
+		<option value="19">Finnish</option>
+		<option value="20">French (France)</option>
+		<option value="21">Galician</option>
+		<option value="22">Hungarian</option>
+		<option value="23">Italian</option>
+		<option value="24">Japanese</option>
+		<option value="25">Korean</option>
+		<option value="26">Norwegian (bokmal)</option>
+		<option value="27">Norwegian (nynorsk)</option>
+		<option value="28">Dutch</option>
+		<option value="29">Polish</option>
+		<option value="30">Portuguese (Brazil)</option>
+		<option value="31">Portuguese (Portugal)</option>
+		<option value="32">Romanian</option>
+		<option value="33">Russian</option>
+		<option value="34">Slovak</option>
+		<option value="35">Slovenian</option>
+		<option value="36">Swedish</option>
+		<option value="37">Thai</option>
+		<option value="38">Turkish</option>
+		<option value="39">Kurdish</option>
+        <option value="40">Simplified Chinese (China)</option>
+		<option value="41">Traditional Chinese (Hong Kong)</option>
+        <option value="42">Traditional Chinese (Taiwan)</option>
+         <option value="43">Leet Speak</option>
+		<option value="44">Afrikaans</option>
+		<option value="45">Albanian</option>
+		<option value="46">Armenian</option>
+		<option value="47">Azeri</option>
+		<option value="48">Belarusian</option>
+		<option value="49">Bengali</option>
+		<option value="50">Bosnian</option>
+		<option value="51">Bulgarian</option>
+		<option value="52">Croatian</option>
+		<option value="53">Dutch (België)</option>
+		<option value="54">English (UK)</option>
+		<option value="55">Esperanto</option>
+		<option value="56">Estonian</option>
+		<option value="57">Faroese</option>
+		<option value="58">French (Canada)</option>
+		<option value="59">Georgian</option>
+		<option value="60">Greek</option>
+		<option value="61">Gujarati</option>
+		<option value="62">Hindi</option>
+        <option value="63">Icelandic</option>
+		<option value="64">Indonesian</option>
+        <option value="65">Irish</option>
+        <option value="66">Javanese</option>
+		<option value="67">Kannada</option>
+		<option value="68">Kazakh</option>
+		<option value="69">Latin</option>
+		<option value="70">Latvian</option>
+		<option value="71">Limburgish</option>
+		<option value="72">Lithuanian</option>
+		<option value="73">Macedonian</option>
+		<option value="74">Malagasy</option>
+		<option value="75">Malay</option>
+		<option value="76">Maltese</option>
+		<option value="77">Marathi</option>
+		<option value="78">Mongolian</option>
+		<option value="79">Nepali</option>
+		<option value="80">Punjabi</option>
+		<option value="81">Romansh</option>
+		<option value="82">Sanskrit</option>
+		<option value="83">Serbian</option>
+		<option value="84">Somali</option>
+		<option value="85">Swahili</option>
+        <option value="86">Filipino</option>
+		<option value="87">Tamil</option>
+        <option value="88">Tatar</option>
+        <option value="89">Telugu</option>
+		<option value="90">Malayalam</option>
+		<option value="91">Ukrainian</option>
+		<option value="92">Uzbek</option>
+		<option value="93">Vietnamese</option>
+		<option value="94">Xhosa</option>
+		<option value="95">Zulu</option>
+		<option value="96">Khmer</option>
+		<option value="97">Tajik</option>
+		<option value="98">Arabic</option>
+		<option value="99">Hebrew</option>
+		<option value="100">Urdu</option>
+		<option value="101">Persian</option>
+		<option value="102">Syriac</option>
+		<option value="103">Yiddish</option>
+		<option value="104">Guaraní</option>
+		<option value="105">Quechua</option>
+		<option value="106">Aymara</option>
+		<option value="107">Northern Sámi</option>
+		<option value="108">Pashto</option>
+ 		<option value="109">Klingon</option>
+		</param>
+
+
+
+        <param name="like_tip" type="list" default="0" label="Layout Style" description="Layout Style standard or button count">
+		<option value="0">Standard</option>
+		<option value="1">Button Count</option>
+        <option value="2">Box Count</option>
+		</param>
+
+        <param name="like_font" type="list" default="0" label="Font" description="Font type for button">
+         <option value="0">Arial</option>
+         <option value="1">Lucida grande</option>
+         <option value="2">Segoe ui</option>
+         <option value="3">Tahoma</option>
+         <option value="4">Trebuchet ms</option>
+         <option value="5">Verdana</option>
+		</param>
+        <param name="like_verb" type="list" default="0" label="Verb to display" description="Display Like or recomended">
+		<option value="0">Like</option>
+		<option value="1">Recommend</option>
+		</param>
+        <param name="like_faces" type="radio" default="0" label="Show Faces" description="Hide or Show Faces">
+		<option value="0">Yes</option>
+		<option value="1">No</option>
+		</param>
+        <param name="like_color" type="list" default="0" label="Color Scheme" description="Color Scheme dark or light">
+		<option value="0">Light</option>
+		<option value="1">Dark</option>
+		</param>
+
+
+	</params>
+
+	<params group="advanced">
+    <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+    <param name="artcreative" type="radio" default="1" label="Display ArtCreative" description="If you dont want to keep the links we ask you to bay commercial version. Notice or select No to turn off (Link will be hidden)">
+		<option value="0">yes</option>
+		<option value="1">no</option>
+		</param>
+	</params>
+</install>
